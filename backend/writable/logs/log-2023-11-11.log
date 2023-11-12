@@ -1,0 +1,246 @@
+ERROR - 2023-11-11 07:15:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'hrs_db', 3306, '', 0)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(178): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(178): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-11 07:15:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_product`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(178): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-11 07:16:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'hrs_db', 3306, '', 0)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(178): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(178): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-11 07:16:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_product`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(178): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-11 07:18:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'hrs_db', 3306, '', 0)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-11 07:18:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_product`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-11 07:19:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'hrs_db', 3306, '', 0)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-11 07:19:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_product`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-11 07:19:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'hrs_db', 3306, '', 0)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-11 07:19:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_product`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-11 07:19:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'hrs_db', 3306, '', 0)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\Users\ASUS\Desktop\HRS\back-end\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\ASUS\Desktop\HRS\back-end\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\ASUS\Desktop\HRS\back-end\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\ASUS\Desktop\HRS\back-end\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\ASUS\Desktop\HRS\back-end\app\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\Users\ASUS\Desktop\HRS\back-end\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ASUS\Desktop\HRS\back-end\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-11 07:19:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `table_product`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserController.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

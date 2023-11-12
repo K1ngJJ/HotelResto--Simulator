@@ -1,0 +1,1063 @@
+CRITICAL - 2023-11-12 02:30:53 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:31:48 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:33:27 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:33:54 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:34:18 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:39:09 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:40:57 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:41:02 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:42:25 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:26 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:28 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:29 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:29 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:29 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:29 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:29 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:29 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:30 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:30 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:30 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:46:41 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:47:24 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:47:26 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:47:27 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:47:27 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:47:27 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:47:28 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:47:28 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:49:17 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:49:18 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:49:22 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:49:27 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:49:27 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:49:27 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:49:28 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:49:42 --> Undefined property: stdClass::$roomHeart
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$roomHeart', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:51:47 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:51:48 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:51:49 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:09 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:10 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:11 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:11 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:12 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:12 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:12 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:12 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:12 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:13 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:20 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:52:22 --> Undefined array key "id"
+in APPPATH\Controllers\UserController.php on line 131.
+ 1 APPPATH\Controllers\UserController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:55:10 --> Undefined property: stdClass::$request
+in APPPATH\Controllers\UserController.php on line 133.
+ 1 APPPATH\Controllers\UserController.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$request', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:55:27 --> Undefined property: stdClass::$request
+in APPPATH\Controllers\UserController.php on line 133.
+ 1 APPPATH\Controllers\UserController.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$request', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:56:49 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:56:50 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:56:51 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:56:51 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:56:51 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:56:51 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:56:52 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:57:37 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:57:38 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:57:39 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:57:39 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:57:59 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 02:58:47 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:05:35 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:17:59 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:18:14 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:20:45 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:21:14 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:21:33 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:22:48 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:26:49 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:26:49 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:26:53 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:26:53 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:26:53 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:26:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:26:55 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:28:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:28:59 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:29:35 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:29:42 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:29:48 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:29:56 --> Call to a member function isValid() on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:31:20 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:31:22 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:31:39 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:31:40 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:31:40 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:31:41 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:31:41 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:32:00 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:33:55 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:34:18 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(141): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:46:18 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(181): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:47:02 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(181): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:49:09 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(181): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:49:51 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(181): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:50:20 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(181): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:50:39 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(181): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:53:06 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(181): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:54:04 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(171): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:56:21 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\UserController.php on line 143.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\Desktop\\HRS\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 04:00:30 --> Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+in SYSTEMPATH\Format\JSONFormatter.php on line 43.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(43): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(98): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\UserController.php(181): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 12:46:31 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 12:46:35 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 12:47:49 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 12:47:50 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 12:47:50 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 12:47:51 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 13:13:09 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(176): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 13:13:12 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_product` (`roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES (:roomName:, :roomPrice:, :roomImg:, :roomDescription:)', [...], false)
+ 6 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\UserController.php(176): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 13:20:23 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 13:20:24 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 13:20:24 --> Attempt to read property "roomName" on null
+in APPPATH\Controllers\UserController.php on line 168.
+ 1 APPPATH\Controllers\UserController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "roomName" on null', 'C:\\Users\\Yna\\Desktop\\HotelRestoSimulator\\backend\\app\\Controllers\\UserController.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()

@@ -9,7 +9,7 @@ use App\Models\UserModel;
 use App\Models\ProductModel;
 
 class UserController extends ResourceController
-{
+{   
     public function index()
     {
         if(!session()->get('isLoggedIn')){
@@ -57,29 +57,64 @@ class UserController extends ResourceController
     }
     public function register()
     {
-        helper(['form']);
-        $rules = [
-            'username' => 'required|min_length[4]|max_length[100]|is_unique[table_register.username]',
-            'email' => 'valid_email|is_unique[table_register.email]',
-            'password' => 'required|min_length[4]|max_length[50]',
-            'confirmpassword' => 'matches[password]'
-        ];
-        if($this->validate($rules)){
-            $userModel = new UserModel();
-            $data = [
-                'username' => $this->request->getVar('username'),
-                'email' => $this->request->getVar('email'),
-                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
-                'usertype' => $this->request->getVar('usertype')
-            ];
-            $userModel->save($data);   
-            return redirect()->to('/signin');
-        }
-        else{
-            $data['validation'] = $this->validator;
-            echo view('signup', $data);
-        }
-    }
+    //     helper('form');
+	// 	$data = [];
+
+	// 	if ($this->request->getMethod() != 'post')
+	// 		return $this->fail('Only post request is allowed');
+
+
+	// 	$rules = [
+	// 		'username' => 'required|min_length[4]|max_length[100]|is_unique[table_register.username]',
+    //         'email' => 'valid_email|is_unique[table_register.email]',
+    //         'password' => 'required|min_length[4]|max_length[50]',
+    //         'confirmpassword' => 'matches[password]',
+	// 	];
+
+	// 	if (!$this->validate($rules)) {
+	// 		return $this->fail(implode('<br>', $this->validator->getErrors()));
+	// 	} else {
+	// 		$model = new UserModel();
+
+	// 		$data = [
+	// 			'username' => $this->request->getVar('username'),
+    //             'email' => $this->request->getVar('email'),
+    //             'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+    //             'usertype' => $this->request->getVar('usertype')
+	// 		];
+
+	// 		$user_id = $model->insert($data);
+	// 		$data['id'] = $user_id;
+	// 		unset($data['password']);
+
+	// 		return $this->respondCreated($data);
+	// 	}
+	// }
+
+
+      helper(['form']);
+      $rules = [
+          'username' => 'required|min_length[4]|max_length[100]|is_unique[table_register.username]',
+          'email' => 'valid_email|is_unique[table_register.email]',
+          'password' => 'required|min_length[4]|max_length[50]',
+          'confirmpassword' => 'matches[password]'
+      ];
+      if($this->validate($rules)){
+          $userModel = new UserModel();
+          $data = [
+               'username' => $this->request->getVar('username'),
+               'email' => $this->request->getVar('email'),
+               'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+               'usertype' => $this->request->getVar('usertype')
+           ];
+           $userModel->save($data);   
+           return redirect()->to('/signin');
+       }
+       else{
+           $data['validation'] = $this->validator;
+           echo view('signup', $data);
+       }
+   }
     public function Login()
     {
         session()->remove(['id', 'username', 'isLoggedIn', 'usertype']);
@@ -128,24 +163,26 @@ class UserController extends ResourceController
         }
         public function save()
         {
-            $id =$_POST['id'];
-            $productData = [
-                'roomName' => $this->request->getVar('roomName'),
-                'roomPrice' => $this->request->getVar('roomPrice'),
-                'roomImg' => $this->request->getVar('roomImg'),
-                'roomDescription' => $this->request->getVar('roomDescription'),
-                'roomHeart' => $this->request->getVar('roomHeart'),
+            $json =$this->request->getJSON();
+            $data = [
+                'roomName' => $json->roomName,
+                'roomPrice' => $json->roomPrice,
+                'roomImg' => $json->roomImg,
+                'roomDescription' => $json->roomDescription,
+           
             ];
 
             $product = new ProductModel();
+            $r = $product->save($data);
+            return $this->respond($r, 200);
     
-                if($id != null)
+                if($json != null)
                     {
 
-                        $product->set($productData)->where('id', $id)->update();
+                        $product->set($data)->where('id', $json)->update();
                     }
                     else{
-                        $product->insert($productData);
+                        $product->insert($data);
                     }
                     return redirect()->to('/adminview');
         }
@@ -165,18 +202,25 @@ class UserController extends ResourceController
             }
         }
 
-        public function delete($id = null)
+        public function del()
         {
+            $json = $this->request->getJSON();
+            $id = $json->id;
             $product = new ProductModel();
-            $product->delete($id);
-            return redirect()->to('/adminview');
+            $r = $product->delete($id);
+            return $this->respond($r, 200);
         }
 
         public function getData()
         {
-            $main = new ProductModel();
-            $data = $main->findAll();
+            $product = new ProductModel();
+            $data = $product->findAll();
+            return $this->respond($data, 200);
+        }
+        public function data()
+        {
+            $user = new UserModel();
+            $data = $user->findAll();
             return $this->respond($data);
         }
-    
     }
