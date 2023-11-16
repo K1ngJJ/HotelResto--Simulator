@@ -6,7 +6,7 @@ import AdminView from '../views/Admin/AdminView.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/Signin',
     name: 'Signin',
     component: SigninView
   },
