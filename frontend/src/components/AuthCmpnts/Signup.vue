@@ -59,8 +59,8 @@
             <div class="row">
               <div class="col-md-9 col-lg-8 mx-auto">
                 <h3 class="login-heading mb-4">Get Started!</h3>
-                <div v-if="validationErrors" class="alert alert-warning">
-                  {{ validationErrors }}
+                <div v-if="flashMsg" class="alert alert-warning">
+                  {{ flashMsg }}
                 </div>
 
                 <!-- Sign Up Form -->

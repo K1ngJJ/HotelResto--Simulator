@@ -62,9 +62,10 @@
                 <div v-if="flashMsg" class="alert alert-warning">
                   {{ flashMsg }}
                 </div>
-
                 <!-- Sign In Form -->
-                <form @submit.prevent="login">
+                  <sheet width="300" class="mx-auto"> 
+                <form fast-fail @submit.prevent="login"> 
+        <div v-if="message === 'error'">Invalid response</div> 
                   <div class="form-floating mb-3">
                     <input v-model="username" type="text" class="form-control" placeholder="Username">
                     <label for="floatingInput">Username</label>
@@ -73,7 +74,7 @@
                     <input v-model="password" type="password" class="form-control" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                   </div>
-
+                    <div v-if="message === 'passwordMismatch'">Passwords do not match</div> 
                   <div class="d-grid">
                     <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">
                       Sign in
@@ -83,6 +84,7 @@
                     </div>
                   </div>
                 </form>
+                 </sheet>
               </div>
             </div>
           </div>
@@ -95,16 +97,22 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   data() {
     return {
-      username: '',
-      password: '',
-      flashMessage: '',
-    };
+      username: "",
+      password: "",
+      errorMsg: "",
+    }
   },
   methods: {
     async login() {
+      const d = await axios.post("api/login",{
+        username: this.username,
+        password: this.password
+      });
+      console.log(d.data);
       // Add your login logic here
       // You can use this.username and this.password to get the entered values
       // Set this.flashMessage based on the login result or show error messages

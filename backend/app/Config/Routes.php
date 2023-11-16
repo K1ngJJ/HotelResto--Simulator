@@ -5,18 +5,22 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'UserController::Login');
-$routes->get('/home', 'UserController::index');
-$routes->get('/productview', 'UserController::productview');
-$routes->get('/adminview', 'UserController::adminview');
-$routes->get('/registerview', 'UserController::registerview');
-$routes->post('/register', 'UserController::register');
-$routes->get('/signin', 'UserController::Login');
-$routes->post('/LoginAuth', 'UserController::LoginAuth');
-$routes->post('/save', 'UserController::save');
-$routes->post('/del', 'UserController::del');
+$routes->get('/', 'UserController::index');
+//$routes->get('/home', 'UserController::index');
+//$routes->get('/productview', 'MainController::productview');
+//$routes->get('/adminview', 'MainController::adminview');
+//$routes->get('/registerview', 'UserController::registerview');
+//$routes->post('/register', 'UserController::register');
+//$routes->get('/signin', 'UserController::Login');
+//$routes->post('/LoginAuth', 'UserController::LoginAuth');
+
+$routes->match(['post', 'get'],'/api/login', 'UserController::login');
+$routes->post('/save', 'MainController::save');
+$routes->post('/del', 'MainController::del');
 $routes->get('/edit/(:any)', 'UserController::edit/$1');
 
-$routes->get('/getData', 'UserController::getData');
-$routes->get('/userData', 'UserController::userData');
+$routes->get('/getData', 'MainController::getData');
+$routes->get('/data', 'UserController::data');
+
+
 
