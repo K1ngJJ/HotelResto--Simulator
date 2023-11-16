@@ -1,20 +1,3 @@
-import AdminView from "../views/Admin/AdminView.vue";
-import AdminView from "../views/Admin/AdminView.vue";
-import AdminView from "../views/Admin/AdminView.vue";
-import AdminView from "../views/Admin/AdminView.vue";
-import SigninView from "../views/Auth/SigninView.vue";
-import SigninView from "../views/Auth/SigninView.vue";
-import SigninView from "../views/Auth/SigninView.vue";
-import SigninView from "../views/Auth/SigninView.vue";
-import SignupView from "../views/Auth/SignupView.vue";
-import SignupView from "../views/Auth/SignupView.vue";
-import SignupView from "../views/Auth/SignupView.vue";
-import SignupView from "../views/Auth/SignupView.vue";
-import HotelView from "../views/Hotel/HotelView.vue";
-import HotelView from "../views/Hotel/HotelView.vue";
-import HotelView from "../views/Hotel/HotelView.vue";
-import HotelView from "../views/Hotel/HotelView.vue";
-
 (function ($) {
  "use strict";
 
@@ -27,33 +10,4 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 		s1.setAttribute('crossorigin','*');
 		s0.parentNode.insertBefore(s1,s0);
 		})();
-})(jQuery);const routes = [
-  {
-    path: '/',
-    name: 'Signin',
-    component: SigninView
-  },
-  {
-    path: '/Signup',
-    name: 'Signup',
-    component: SignupView
-  },
-  {
-    path: '/Hotel',
-    name: 'Hotel',
-    component: HotelView,
-    _meta: { requiresAuth: true },
-    get meta() {
-      return this._meta
-    },
-    set meta(value) {
-      this._meta = value
-    },
-  },
-  {
-    path: '/Admin',
-    name: 'Admin',
-    component: AdminView
-  }
-]
- 
+})(jQuery); 
