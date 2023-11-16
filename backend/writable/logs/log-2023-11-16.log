@@ -5,3 +5,94 @@ in APPPATH\Config\Routes.php on line 16.
  3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:15:15 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:15:55 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:20:09 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:22:16 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:30:39 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:31:07 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:31:10 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:31:37 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 03:46:59 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 04:15:06 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 04:15:18 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 04:16:32 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 04:18:41 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\Users\\ASUS\\Desktop\\HRS\\HotelResto--Simulator\\backend\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()

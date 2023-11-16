@@ -8,6 +8,7 @@ loadFonts()
 
 axios.defaults.baseURL="http://backend.test/";
 
+
 createApp(App)
   .use(router)
   .use(vuetify)

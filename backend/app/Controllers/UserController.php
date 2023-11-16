@@ -19,7 +19,7 @@ class UserController extends ResourceController
             $pass = $data['password'];
             $authenticatedPassword = password_verify($password, $pass);
             if($authenticatedPassword){
-                return $this->respond(['msg'=>'okay'], 200);
+                return $this->respond(['msg'=>'okay', 'token' => $data['token']], 200);
             }else{
                 return $this->respond(['msg'=>'Invalid Password!'], 200);
             }
