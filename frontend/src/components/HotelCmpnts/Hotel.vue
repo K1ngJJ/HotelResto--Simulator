@@ -74,19 +74,19 @@
           <h1 class="display-5 text-uppercase mb-0">Search for the Best Deal!</h1>
         </div>
         <div class="owl-carousel product-carousel">
-          <div v-for="pr in product" :key="pr.id" class="pb-5">
+          <div v-for="product in product" :key="product.id" class="pb-5">
             <div class="product-item position-relative bg-light d-flex flex-column text-center">
-              <img class="img-fluid mb-4" :src="getImageUrl(pr.roomImg)" alt="">
-              <h6 class="text-uppercase">{{ pr.roomName }}</h6>
-              <h6 class="text-primary mb-0">{{ pr.roomDescription }}</h6>
+              <img class="img-fluid mb-4" :src="getImageUrl(product.roomImg)" alt="">
+              <h6 class="text-uppercase">{{ product.roomName }}</h6>
+              <h6 class="text-primary mb-0">{{ product.roomDescription }}</h6>
               <label><i class="bi bi-heart"></i></label>
-              <h6 class="text-primary mb-0">{{ pr.roomHeart }}</h6>
+              <h6 class="text-primary mb-0">{{ product.roomHeart }}</h6>
               <label>Price</label>
-              <h6 class="text-primary mb-0">{{ pr.roomPrice }}</h6>
+              <h6 class="text-primary mb-0">{{ product.roomPrice }}</h6>
               <div class="btn-action d-flex justify-content-center">
-                <router-link class="btn btn-primary py-2 px-3" :to="'/book/' + pr.id"><i class="bi bi-book"></i></router-link>
-                <button class="btn btn-primary py-2 px-3" @click="addToFavorites(pr.id)"><i class="bi bi-heart"></i></button>
-                <router-link class="btn btn-primary py-2 px-3" :to="'/productview/' + pr.id"><i class="bi bi-eye"></i></router-link>
+                <router-link class="btn btn-primary py-2 px-3" :to="'/book/' + product.id"><i class="bi bi-book"></i></router-link>
+                <button class="btn btn-primary py-2 px-3" @click="addToFavorites(product.id)"><i class="bi bi-heart"></i></button>
+                <router-link class="btn btn-primary py-2 px-3" :to="'/productview/' + product.id"><i class="bi bi-eye"></i></router-link>
               </div>
             </div>
           </div>
@@ -121,13 +121,29 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   data() {
     return {
-      product: [], // Make sure to initialize or fetch the product data
+      product:[],
+      roomImg: "",
+      roomName: "",
+      roomPrice: "",
+      roomDescription: "", // Make sure to initialize or fetch the product data
     };
   },
+  created(){
+    this.getInfo();
+  },
   methods: {
+    async getInfo() {
+      try {
+        const inf = await axios.get("getData");
+        this.product = inf.data;
+      } catch (error) {
+        console.log(error);
+      }
+    },
     getImageUrl(img) {
       // Assuming you have a function to get the image URL
       return `${process.env.BASE_URL}img/${img}`;

@@ -11,7 +11,21 @@ class UserController extends ResourceController
 {
     public function login()
     {
-        echo 'HELLOOOOO';
+        $username = $this->request->getVar("username");
+        $password = $this->request->getVar("password");
+        $user = new UserModel();
+        $data = $user->where('username', $username)->first();
+        if($data){
+            $pass = $data['password'];
+            $authenticatedPassword = password_verify($password, $pass);
+            if($authenticatedPassword){
+                return $this->respond(['msg'=>'okay'], 200);
+            }else{
+                return $this->respond(['msg'=>'Invalid Password!'], 200);
+            }
+        }else{
+            return $this->respond(['msg'=>'Invalid User!'], 200);
+        }
     }   
     public function index()
     {
