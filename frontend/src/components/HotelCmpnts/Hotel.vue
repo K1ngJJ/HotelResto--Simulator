@@ -88,12 +88,12 @@
             </div>
             <div class="user-text">
               <h6>S</h6>
-              <p class="text-muted mb-0">Administrator</p>
+              <p class="text-muted mb-0">More</p>
             </div>
           </div>
-          <router-link to="/profile" class="dropdown-item">My Profile</router-link>
-          <router-link to="/settings" class="dropdown-item">Account Settings</router-link>
-          <a href="/Signin" class="dropdown-item">Logout</a>
+          <router-link to="/profile" class="dropdown-item">Restaurant</router-link>
+          <router-link to="/settings" class="dropdown-item">Rooms</router-link>
+          <a href="/Events" class="dropdown-item">Events</a>
         </div>
       </li>
     <li class="nav-item dropdown noti-dropdown">
@@ -521,8 +521,7 @@ export default {
     document.body.appendChild(customScript14);
     document.body.appendChild(customScript15);
     document.body.appendChild(customScript16);
-    document.body.appendChild(customScript17);
-    document.body.appendChild(customScript18);
+
     document.body.appendChild(customScript19);
     document.body.appendChild(customScript20);
     document.body.appendChild(customScript21);

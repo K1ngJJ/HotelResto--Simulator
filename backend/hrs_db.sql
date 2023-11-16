@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 12, 2023 at 09:29 AM
+-- Generation Time: Nov 16, 2023 at 10:28 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -32,17 +32,19 @@ CREATE TABLE `table_product` (
   `roomName` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `roomPrice` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `roomImg` blob NOT NULL,
-  `roomDescription` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
+  `roomDescription` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `roomHeart` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `table_product`
 --
 
-INSERT INTO `table_product` (`id`, `roomName`, `roomPrice`, `roomImg`, `roomDescription`) VALUES
-(1, 'Double Suite', '1500.00', 0x51756172746f2d5477696e2d322e6a7067, 'Two double beds into a wide windowed room.'),
-(6, 'Normal Room', '1050.00', 0x70726f647563742d312e6a7067, 'Perfect for a simple trip with someone special'),
-(8, 'Music Room', '1200', 0x494d475f353430322e4a5047, 'Love to sing? Then try this room!');
+INSERT INTO `table_product` (`id`, `roomName`, `roomPrice`, `roomImg`, `roomDescription`, `roomHeart`) VALUES
+(1, 'Double Suite', '1500.00', 0x51756172746f2d5477696e2d322e6a7067, 'Two double beds into a wide windowed room.', 0),
+(6, 'Normal Room', '1050.00', 0x70726f647563742d312e6a7067, 'Perfect for a simple trip with someone special', 0),
+(8, 'Music Room', '1200', 0x494d475f353430322e4a5047, 'Love to sing? Then try this room!', 0),
+(65, 'King JayJay A. Pacheco', '212', '', 'sdasc', 0);
 
 -- --------------------------------------------------------
 
@@ -55,22 +57,24 @@ CREATE TABLE `table_register` (
   `username` text NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` text NOT NULL,
-  `usertype` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
+  `usertype` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `token` text NOT NULL,
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `table_register`
 --
 
-INSERT INTO `table_register` (`id`, `username`, `email`, `password`, `usertype`) VALUES
-(8, 'serariie123', 'alcantarachynna1237@gmail.com', '$2y$10$3k9.Bg/myu4SIMAcYVu40.mrxe9VNf31aB3e.nH2ZfJtQb7z6lEIy', 'admin'),
-(9, 'yna1234', 'gleambean96@gmail.com', '$2y$10$qstzlcmHcWBbRriZsnbks.IjAmGhJHlFtAf/eX9a1Vpc.DEP9ITRq', 'user'),
-(10, 'jfdhjf', 'anbbhgfhh@hotmail.com', '$2y$10$OPIxifekcLp6pVWYS390BODklsSeq0Q8Bk11i9CQx1y5swXyHMLSS', 'user'),
-(11, 'yna12345', 'alcantarachynna123@gmail.com', '$2y$10$sseZdku0csBlhwY53GQ6g.TnVqbgFdJKnFpWSKQSjJkGiH3pF15QO', 'admin'),
-(12, 'chynna', 'alcantarachynna1234@gmail.com', '$2y$10$oyVS5rvc.fPDR5I/9gqfjOM2LbNksq8QQaeNSj5LtnzabxMtNi8Om', 'student'),
-(14, 'Admin', 'admin@gmail.com', '$2y$10$ItWl457mTjHIq7e6tmBp1Ol9P9Y8AIDxjHLnm2gIX/IWqhCkm5wIe', 'admin'),
-(15, 'Student', 'student@gmail.com', '$2y$10$NTlKfQ82GCqTPsmM1GMxDOV541EuIsbG9g1Q9b5tEpXRE7ayqp5HG', 'student'),
-(16, 'admin1', 'admin1@gmail.com', '$2y$10$ULVJw8JD7w3K/UVxDMrdeeL.oGkTQ4DAnuJtOuDFZb0KHYnUF23Ua', 'student');
+INSERT INTO `table_register` (`id`, `username`, `email`, `password`, `usertype`, `token`, `created_at`) VALUES
+(8, 'serariie123', 'alcantarachynna1237@gmail.com', '$2y$10$3k9.Bg/myu4SIMAcYVu40.mrxe9VNf31aB3e.nH2ZfJtQb7z6lEIy', 'admin', '', '2023-11-16 12:28:53'),
+(9, 'yna1234', 'gleambean96@gmail.com', '$2y$10$qstzlcmHcWBbRriZsnbks.IjAmGhJHlFtAf/eX9a1Vpc.DEP9ITRq', 'user', '', '2023-11-16 12:28:53'),
+(10, 'jfdhjf', 'anbbhgfhh@hotmail.com', '$2y$10$OPIxifekcLp6pVWYS390BODklsSeq0Q8Bk11i9CQx1y5swXyHMLSS', 'user', '', '2023-11-16 12:28:53'),
+(11, 'yna12345', 'alcantarachynna123@gmail.com', '$2y$10$sseZdku0csBlhwY53GQ6g.TnVqbgFdJKnFpWSKQSjJkGiH3pF15QO', 'admin', '', '2023-11-16 12:28:53'),
+(12, 'chynna', 'alcantarachynna1234@gmail.com', '$2y$10$oyVS5rvc.fPDR5I/9gqfjOM2LbNksq8QQaeNSj5LtnzabxMtNi8Om', 'student', '', '2023-11-16 12:28:53'),
+(14, 'Admin', 'admin@gmail.com', '$2y$10$ItWl457mTjHIq7e6tmBp1Ol9P9Y8AIDxjHLnm2gIX/IWqhCkm5wIe', 'admin', '', '2023-11-16 12:28:53'),
+(15, 'Student', 'student@gmail.com', '$2y$10$NTlKfQ82GCqTPsmM1GMxDOV541EuIsbG9g1Q9b5tEpXRE7ayqp5HG', 'student', '', '2023-11-16 12:28:53'),
+(16, 'admin1', 'admin1@gmail.com', '$2y$10$ULVJw8JD7w3K/UVxDMrdeeL.oGkTQ4DAnuJtOuDFZb0KHYnUF23Ua', 'student', '2PlhWns382h8Uh88jS', '2023-11-16 12:28:53');
 
 --
 -- Indexes for dumped tables
@@ -96,13 +100,13 @@ ALTER TABLE `table_register`
 -- AUTO_INCREMENT for table `table_product`
 --
 ALTER TABLE `table_product`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
 
 --
 -- AUTO_INCREMENT for table `table_register`
 --
 ALTER TABLE `table_register`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
