@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hotel & Restaurant Simulator</title>
+    <title>Hotel de Resto Simulator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -13,26 +13,20 @@
 
 
 
-<link rel="stylesheet" href="admin_assets/css/bootstrap.min.css">
-
-<link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/fontawesome.min.css">
-<link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/all.min.css">
-
-<link rel="stylesheet" href="admin_assets/css/feathericon.min.css">
-
-<link rel="stylesheet" href="admin_assets/plugins/datatables/datatables.min.css" />
-
-<link rel="stylesheet" type="text/css" href="admin_assets/css/bootstrap-datetimepicker.min.css" />
-
-<link rel="stylehseet" href="https://cdn.oesmith.co.uk/morris-0.5.1.css">
-<link rel="stylesheet" href="admin_assets/plugins/morris/morris.css">
-<link rel="stylesheet" href="admin_assets/css/style.css">
-<link rel="stylesheet" href="admin_assets/plugins/fullcalendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="admin_assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="admin_assets/css/feathericon.min.css">
+    <link rel="stylesheet" href="admin_assets/plugins/datatables/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="admin_assets/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylehseet" href="https://cdn.oesmith.co.uk/morris-0.5.1.css">
+    <link rel="stylesheet" href="admin_assets/plugins/morris/morris.css">
+    <link rel="stylesheet" href="admin_assets/css/style.css">
+    <link rel="stylesheet" href="admin_assets/plugins/fullcalendar/fullcalendar.min.css">
 
 
 
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
-
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
     <link rel="stylesheet" href="assets_gstart/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets_gstart/css/animate.css">
     <link rel="stylesheet" href="assets_gstart/css/owl.carousel.min.css">
@@ -40,10 +34,8 @@
     <link rel="stylesheet" href="assets_gstart/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="assets_gstart/css/jquery.timepicker.css">
     <link rel="stylesheet" href="assets_gstart/css/fancybox.min.css">
-
     <link rel="stylesheet" href="assets_gstart/fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets_gstart/fonts/fontawesome/css/font-awesome.min.css">
-
     <!-- Theme Style -->
     <link rel="stylesheet" href="assets_gstart/css/style.css">
 
@@ -55,14 +47,17 @@
     
     <router-link to="/dashboard/dashboard" class="logo">
       <img src="admin_assets/img/hotel_logo.png" width="50" height="70" alt="logo" />
-      <span class="logoclass" >Hotel</span>
+      <span class="logoclass">HOTEL</span>
     </router-link>
     
+    <router-link to="/dashboard/dashboard" class="logo logo-small">
+      <img src="admin_assets/img/hotel_logo.png" alt="Logo" width="30" height="30" />
+    </router-link>
   </div>
   <ul class="nav user-menu">
      <li class="nav-item dropdown has-arrow">
         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-          <span><strong><h7>More</h7></strong></span>
+          <span class="user-img"><strong><h7>More</h7></strong></span>
         </a>
         <div class="dropdown-menu">
           <div class="user-header">
@@ -75,7 +70,7 @@
             </div>
           </div>
           <router-link to="/profile" class="dropdown-item">Restaurant</router-link>
-          <router-link to="/Room" class="dropdown-item">Rooms</router-link>
+          <router-link to="/settings" class="dropdown-item">Rooms</router-link>
           <a href="/Events" class="dropdown-item">Events</a>
         </div>
       </li>
@@ -170,48 +165,7 @@
     </div>
   </div>
     <!-- Navbar End -->
-        <!-- Hero Start -->
-<section class="site-hero overlay" style="background-image: url(assets_gstart/images/hero_4.jpg)" data-stellar-background-ratio="0.5">
-  <div class="container">
-    <div class="row site-hero-inner justify-content-center align-items-center">
-      <div class="col-md-10 text-center">
-        <span class="custom-caption text-uppercase text-white d-block  mb-3">Welcome To Hotel DE Resto <span class="fa fa-star text-primary"></span> SIMULATOR</span>
-        <h1 class="heading">A Best Place To Stay</h1>
-        <ul class="custom-breadcrumbs mb-4">
-          <li><a href="/Hotel">Home</a></li>
-          <li>&bullet;</li>
-          <li><a href="/About">About</a></li>
-          <li>&bullet;</li>
-          <li><a href="/Contact">Contact</a></li>
-          <li>&bullet;</li>
-          <li><a href="/Event">Event</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
-  <a class="mouse smoothscroll" href="#next">
-    <div class="mouse-icon">
-      <span class="mouse-wheel"></span>
-    </div>
-  </a>
-</section>
-<!-- END section -->
- 
-
-<!-- Search Bar components -->
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-center text-center mb-5">
-      <div class="col-md-7">
-        <h2 class="heading" >Rooms &amp; Suites</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-      </div>
-    </div>
-  </div>
-</section>
-    <!-- Hero End -->
-   
   <section class="section bg-image overlay" style="background-image: url('assets_gstart/images/hero_4.jpg');">
   <div class="container">
     <div class="row align-items-center">
@@ -219,22 +173,104 @@
         <h2 class="text-white font-weight-bold">A Best Place To Stay. Book Now!</h2>
       </div>
       <div class="col-12 col-md-6 text-center text-md-right">
-        <a href="/Booking" class="btn btn-outline-white-primary py-3 text-white px-5">Book Now</a>
+       <!-- <a href="/Booking" class="btn btn-outline-white-primary py-3 text-white px-5">Book Now</a>-->
       </div>
     </div>
   </div>
 </section>
 
-<section class="section blog-post-entry bg-light">
+<section class="section contact-section" id="next">
   <div class="container">
-    <div class="row justify-content-center text-center mb-5">
+    <div class="row">
       <div class="col-md-7">
-        <h2 class="heading" >Events</h2>
-        <p >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+        <form action="#" method="post" class="bg-white p-md-5 p-4 mb-5 border">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label class="text-black font-weight-bold" for="name">Name</label>
+              <input type="text" id="name" class="form-control ">
+            </div>
+            <div class="col-md-6 form-group">
+              <label class="text-black font-weight-bold" for="phone">Phone</label>
+              <input type="text" id="phone" class="form-control ">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label class="text-black font-weight-bold" for="email">Email</label>
+              <input type="email" id="email" class="form-control ">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label class="text-black font-weight-bold" for="checkin_date">Date Check In</label>
+              <input type="text" id="checkin_date" class="form-control">
+            </div>
+            <div class="col-md-6 form-group">
+              <label class="text-black font-weight-bold" for="checkout_date">Date Check Out</label>
+              <input type="text" id="checkout_date" class="form-control">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="adults" class="font-weight-bold text-black">Adults</label>
+              <div class="field-icon-wrap">
+                <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                <select name="" id="adults" class="form-control">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4+</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="children" class="font-weight-bold text-black">Children</label>
+              <div class="field-icon-wrap">
+                <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                <select name="" id="children" class="form-control">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4+</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row mb-4">
+            <div class="col-md-12 form-group">
+              <label class="text-black font-weight-bold" for="message">Notes</label>
+              <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="submit" value="Book Now" class="btn btn-primary text-white py-3 px-5 font-weight-bold">
+            </div>
+          </div>
+        </form>
+
+      </div>
+      <div class="col-md-5"  >
+        <div class="row">
+          <div class="col-md-10 ml-auto contact-info">
+            <p><span class="d-block">Address:</span> <span class="text-black"> Masipit, J.P Riza Street, Mindoro State University</span></p>
+            <p><span class="d-block">Phone:</span> <span class="text-black"> (+63) 915 1972 716</span></p>
+            <p><span class="d-block">Email:</span> <span class="text-black"> hotelderesto@gmail.com</span></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+     
 
 <footer class="section footer-section">
   <div class="container">
@@ -316,167 +352,14 @@ export default {
         console.log(error);
       }
     },
-    getImageUrl(img) {
+        getImageUrl(img) {
       // Assuming you have a function to get the image URL
       return `${process.env.BASE_URL}img/${img}`;
     },
-    addToFavorites(productId) {
-      // Add logic to add product to favorites
-    },
-  },
-  mounted() {
-    // Check if 'process' is defined before accessing 'env'
-    if (process && process.env) {
-      // Access your environment variables
-      const myVariable = process.env.MY_VARIABLE;
-
-      // Use the variable as needed
-      console.log('My Variable:', myVariable);
-    } else {
-      console.error('Error: process or process.env is undefined');
-    }
-  },
-    mounted() {
-    // Add your script code here
-    const bootstrapScript = document.createElement('script');
-    bootstrapScript.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js';
-    bootstrapScript.crossorigin = 'anonymous';
-
-    const script = document.createElement('script');
-    script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
-    script.crossorigin = 'anonymous';
-
-    const script1 = document.createElement('script');
-    script1.src = 'https://code.jquery.com/jquery-3.6.4.min.js';
-    script1.crossorigin = 'anonymous';
-
-    const customScript1 = document.createElement('script');
-    customScript1.src = 'assets_hotel/lib/easing/easing.min.js';
-
-    const customScript2 = document.createElement('script');
-    customScript2.src = 'assets_hotel/lib/waypoints/waypoints.min.js';
-
-    const customScript3 = document.createElement('script');
-    customScript3.src = 'assets_hotel/lib/owlcarousel/owl.carousel.min.js';
-
-
-
-
-    const customScript7 = document.createElement('script');
-    customScript7.src = 'admin_assets/js/bootstrap.min.js';
-    customScript7.crossorigin = 'anonymous';
-  
-  
-    const customScript6 = document.createElement('script');
-    customScript6.src = 'admin_assets/js/popper.min.js';
-
-    const customScript8 = document.createElement('script');
-    customScript8.src = 'admin_assets/js/moment.min.js';
-
-    const customScript9 = document.createElement('script');
-    customScript9.src = 'admin_assets/js/select2.min.js';
-
-    const customScript11 = document.createElement('script');
-    customScript11.src = 'admin_assets/plugins/raphael/raphael.min.js';
-
-
-
-    const customScript13 = document.createElement('script');
-    customScript13.src = 'admin_assets/plugins/datatables/jquery.dataTables.min.js';
-
-    const customScript14 = document.createElement('script');
-    customScript14.src = 'admin_assets/plugins/datatables/datatables.min.js';
-
-    const customScript15 = document.createElement('script');
-    customScript15.src = 'admin_assets/js/bootstrap-datetimepicker.min.js';
-
-    const customScript16 = document.createElement('script');
-    customScript16.src = 'admin_assets/js/jquery-ui.min.js';
-
-
-    const customScript20 = document.createElement('script');
-    customScript20.src = 'admin_assets/js/script.js';
-
-
-
-    const customScript21 = document.createElement('script');
-    customScript21.src = 'assets_gstart/js/jquery-3.3.1.min.js';
-   
-
-    const customScript22 = document.createElement('script');
-    customScript22.src = 'assets_gstart/js/jquery-migrate-3.0.1.min.js';
- 
-
-    const customScript23 = document.createElement('script');
-    customScript23.src = 'assets_gstart/js/popper.min.js';
-  
-
-    const customScript24 = document.createElement('script');
-    customScript24.src = 'assets_gstart/js/bootstrap.min.js';
-  
-    const customScript25 = document.createElement('script');
-    customScript25.src = 'assets_gstart/js/owl.carousel.min.js';
-   
-    const customScript26 = document.createElement('script');
-    customScript26.src = 'assets_gstart/js/jquery.stellar.min.js';
-   
-
-    const customScript27 = document.createElement('script');
-    customScript27.src = 'assets_gstart/js/jquery.fancybox.min.js';
-
-
-    const customScript28 = document.createElement('script');
-    customScript28.src = 'assets_gstart/js/aos.js';
-
-
-    const customScript29 = document.createElement('script');
-    customScript29.src = 'assets_gstart/js/bootstrap-datepicker.js';
-
-
-    const customScript30 = document.createElement('script');
-    customScript30.src = 'assets_gstart/js/jquery.timepicker.min.js';
-
-
-  
-
-    
-    // Append the scripts to the document body
-    document.body.appendChild(bootstrapScript);
-    document.body.appendChild(script);
-    document.body.appendChild(customScript1);
-    document.body.appendChild(customScript2);
-    document.body.appendChild(customScript3);
-
-    document.body.appendChild(customScript6);
-    document.body.appendChild(customScript7);
-    document.body.appendChild(customScript8);
-    document.body.appendChild(customScript8);
-    document.body.appendChild(customScript9);
-  
-    document.body.appendChild(customScript11);
- 
-    document.body.appendChild(customScript13);
-    document.body.appendChild(customScript14);
-    document.body.appendChild(customScript15);
-    document.body.appendChild(customScript16);
-
-
-    document.body.appendChild(customScript20);
-    document.body.appendChild(customScript21);
-    document.body.appendChild(customScript22);
-    document.body.appendChild(customScript23);
-    document.body.appendChild(customScript24);
-    document.body.appendChild(customScript25);
-    document.body.appendChild(customScript26);
-    document.body.appendChild(customScript27);
-    document.body.appendChild(customScript28);
-    document.body.appendChild(customScript29);
-    document.body.appendChild(customScript30);
-
-  },
-};
+  }
+}
 </script>
 
-<style scoped>
-/* Add your component-specific styles here */
+<style>
+
 </style>

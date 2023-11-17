@@ -113,7 +113,7 @@
         </div>
         <a class="dropdown-item" href="/profile">My Profile</a>
         <a class="dropdown-item" href="/settings">Account Settings</a>
-        <a class="dropdown-item" href="/auth/logout">Logout</a>
+        <a class="dropdown-item" href="/Signin">Logout</a>
       </div>
     </li>
   </ul>
