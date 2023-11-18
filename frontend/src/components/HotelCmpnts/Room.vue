@@ -2,16 +2,11 @@
   <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hotel de Resto Simulator</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="admin_assets/img/favicon.png">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
-
-
 
     <link rel="stylesheet" href="admin_assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/fontawesome.min.css">
@@ -23,10 +18,29 @@
     <link rel="stylesheet" href="admin_assets/plugins/morris/morris.css">
     <link rel="stylesheet" href="admin_assets/css/style.css">
     <link rel="stylesheet" href="admin_assets/plugins/fullcalendar/fullcalendar.min.css">
+       <!-- Favicon -->
+    <link href="assets_hotel/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets_hotel/lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="assets_hotel/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets_hotel/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="assets_hotel/css/style.css" rel="stylesheet">
+    <link href="assets_hotel/css/signin.css" rel="stylesheet">
 
 
 
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
     <link rel="stylesheet" href="assets_gstart/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets_gstart/css/animate.css">
     <link rel="stylesheet" href="assets_gstart/css/owl.carousel.min.css">
@@ -38,7 +52,6 @@
     <link rel="stylesheet" href="assets_gstart/fonts/fontawesome/css/font-awesome.min.css">
     <!-- Theme Style -->
     <link rel="stylesheet" href="assets_gstart/css/style.css">
-
 </head>
 <body>
         <!-- Navbar Start -->
@@ -49,6 +62,15 @@
       <img src="admin_assets/img/hotel_logo.png" width="50" height="70" alt="logo" />
       <span class="logoclass">HOTEL</span>
     </router-link>
+    <router>
+    <ul class="custom-breadcrumbs mb-4">
+          <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>
+          <!--&bullet;-->
+          <td><a href="/About" class="btn btn-outline-white-primary py-0 text-white mr-0">About</a></td>
+         <td><a href="/Contact" class="btn btn-outline-white-primary py-0 text-white mr-0">Contact</a></td>
+        <td><a href="/Event" class="btn btn-outline-white-primary py-0 text-white mr-0">Event</a></td>
+          </ul>
+    </router>
     
     <router-link to="/dashboard/dashboard" class="logo logo-small">
       <img src="admin_assets/img/hotel_logo.png" alt="Logo" width="30" height="30" />
@@ -171,15 +193,16 @@
     <div class="container py-5">
       <div class="row justify-content-start">
         <div class="col-lg-8">
+          <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+            <h2 class="text-dark display-6 text-uppercase mb-0"></h2>
+        </div>
           <div class="border-start border-5 border-dark ps-5 mb-5">
             <h6 class="text-dark text-uppercase">Special Offer</h6>
             <h1 class="display-5 text-uppercase text-white mb-0">Save 50% off of your first Reservation!</h1>
           </div>
           <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
-          <router-link to="#shop" class="btn btn-light py-md-3 px-md-5 me-3">Book Now</router-link>
+          <router-link to="/Booking" class="btn btn-light py-md-3 px-md-5 me-3">Book Now</router-link>
           <router-link to="" class="btn btn-outline-light py-md-3 px-md-5">Read More</router-link>
-          <li><a href="/">Home</a></li>
-
             </div>
           </div>
       </div>
@@ -195,21 +218,40 @@
  <!-- Products Start -->
     <div id="shop" class="container-fluid py-5">
       <div class="container">
-        <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+            <div class="col-12 col-md-6 text-center mb-4 mb-md-0 text-md-left">
+         <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
           <h6 class="text-primary text-uppercase">Rooms</h6>
-          <h1 class="display-5 text-uppercase mb-0">Search for the Best Deal!</h1>
+          <h1 class="text-black display-10 text-uppercase mb-0">Search for the Best Deal!</h1>
         </div>
-        <div class="">
+      </div>
+      </div>
+    </div>
+    <!-- Products End -->
+
+
+      <section class="section bg-image overlay" style="background-image: url('assets_gstart/images/hero_4.jpg');">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 text-center mb-4 mb-md-0 text-md-left">
+         <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+        </div>
+      </div>
+     <!-- Products Start -->
+    <div id="shop" class="container-fluid py-2">
+      <div class="container">
+         <div class="">
           <div v-for="product in product" :key="product.id" class="pb-5">
-            <div class="product-item position-relative bg-light d-flex flex-column text-center">
+            <div class="product-item position-relative d-flex flex-column text-center btn btn-outline-dark py-md-3 px-md-8">
               <img class="img-fluid mb-4" :src="getImageUrl(product.roomImg)" alt="">
-              <h6 class="text-uppercase">{{ product.roomName }}</h6>
-              <h6 class="text-primary mb-0">{{ product.roomDescription }}</h6>
-              <label><i class="bi bi-heart"></i></label>
-              <h6 class="text-primary mb-0">{{ product.roomHeart }}</h6>
-              <label>Price</label>
-              <h6 class="text-primary mb-0">{{ product.roomPrice }}</h6>
-              <div class="btn-action d-flex justify-content-center">
+              <br>
+              <h6 class=" text-orange mb-0 font-weight-bold">{{ product.roomName }}</h6>
+              <br>
+              <h6 class="text-white font-weight-bold">{{ product.roomDescription }}</h6>
+              <br>
+              <h6 class="text-orange mb-0 font-weight-bold"><i class="bi bi-heart"></i> {{ product.roomHeart }}</h6>
+              <br>
+              <h6 class="text-white font-weight-bold">Price: {{ product.roomPrice }}</h6> 
+              <div class="btn-action d-flex justify-content-center btn py-md-0 px-md-2">
                 <router-link class="btn btn-primary py-2 px-3" :to="'/book/' + product.id"><i class="bi bi-book"></i></router-link>
                 <button class="btn btn-primary py-2 px-3" @click="addToFavorites(product.id)"><i class="bi bi-heart"></i></button>
                 <router-link class="btn btn-primary py-2 px-3" :to="'/productview/' + product.id"><i class="bi bi-eye"></i></router-link>
@@ -220,27 +262,9 @@
       </div>
     </div>
     <!-- Products End -->
-
-    <!-- Modal -->
-    <div class="" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <!-- Your modal content goes here -->
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
     </div>
+  </div>
+</section>
      
 
 <footer class="section footer-section">
@@ -327,6 +351,145 @@ export default {
       // Assuming you have a function to get the image URL
       return `${process.env.BASE_URL}img/${img}`;
     },
+
+    mounted() {
+    // Add your script code here
+    const bootstrapScript = document.createElement('script');
+    bootstrapScript.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js';
+    bootstrapScript.crossorigin = 'anonymous';
+
+    const script = document.createElement('script');
+    script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
+    script.crossorigin = 'anonymous';
+
+    const script1 = document.createElement('script');
+    script1.src = 'https://code.jquery.com/jquery-3.6.4.min.js';
+    script1.crossorigin = 'anonymous';
+
+    const customScript1 = document.createElement('script');
+    customScript1.src = 'assets_hotel/lib/easing/easing.min.js';
+
+    const customScript2 = document.createElement('script');
+    customScript2.src = 'assets_hotel/lib/waypoints/waypoints.min.js';
+
+    const customScript3 = document.createElement('script');
+    customScript3.src = 'assets_hotel/lib/owlcarousel/owl.carousel.min.js';
+
+
+
+
+    const customScript7 = document.createElement('script');
+    customScript7.src = 'admin_assets/js/bootstrap.min.js';
+    customScript7.crossorigin = 'anonymous';
+  
+  
+    const customScript6 = document.createElement('script');
+    customScript6.src = 'admin_assets/js/popper.min.js';
+
+    const customScript8 = document.createElement('script');
+    customScript8.src = 'admin_assets/js/moment.min.js';
+
+    const customScript9 = document.createElement('script');
+    customScript9.src = 'admin_assets/js/select2.min.js';
+
+    const customScript11 = document.createElement('script');
+    customScript11.src = 'admin_assets/plugins/raphael/raphael.min.js';
+
+
+
+    const customScript13 = document.createElement('script');
+    customScript13.src = 'admin_assets/plugins/datatables/jquery.dataTables.min.js';
+
+    const customScript14 = document.createElement('script');
+    customScript14.src = 'admin_assets/plugins/datatables/datatables.min.js';
+
+    const customScript15 = document.createElement('script');
+    customScript15.src = 'admin_assets/js/bootstrap-datetimepicker.min.js';
+
+    const customScript16 = document.createElement('script');
+    customScript16.src = 'admin_assets/js/jquery-ui.min.js';
+
+
+    const customScript20 = document.createElement('script');
+    customScript20.src = 'admin_assets/js/script.js';
+
+
+
+    const customScript21 = document.createElement('script');
+    customScript21.src = 'assets_gstart/js/jquery-3.3.1.min.js';
+   
+
+    const customScript22 = document.createElement('script');
+    customScript22.src = 'assets_gstart/js/jquery-migrate-3.0.1.min.js';
+ 
+
+    const customScript23 = document.createElement('script');
+    customScript23.src = 'assets_gstart/js/popper.min.js';
+  
+
+    const customScript24 = document.createElement('script');
+    customScript24.src = 'assets_gstart/js/bootstrap.min.js';
+  
+    const customScript25 = document.createElement('script');
+    customScript25.src = 'assets_gstart/js/owl.carousel.min.js';
+   
+    const customScript26 = document.createElement('script');
+    customScript26.src = 'assets_gstart/js/jquery.stellar.min.js';
+   
+
+    const customScript27 = document.createElement('script');
+    customScript27.src = 'assets_gstart/js/jquery.fancybox.min.js';
+
+
+    const customScript28 = document.createElement('script');
+    customScript28.src = 'assets_gstart/js/aos.js';
+
+
+    const customScript29 = document.createElement('script');
+    customScript29.src = 'assets_gstart/js/bootstrap-datepicker.js';
+
+
+    const customScript30 = document.createElement('script');
+    customScript30.src = 'assets_gstart/js/jquery.timepicker.min.js';
+
+
+  
+
+    
+    // Append the scripts to the document body
+    document.body.appendChild(bootstrapScript);
+    document.body.appendChild(script);
+    document.body.appendChild(customScript1);
+    document.body.appendChild(customScript2);
+    document.body.appendChild(customScript3);
+
+    document.body.appendChild(customScript6);
+    document.body.appendChild(customScript7);
+    document.body.appendChild(customScript8);
+    document.body.appendChild(customScript8);
+    document.body.appendChild(customScript9);
+  
+    document.body.appendChild(customScript11);
+ 
+    document.body.appendChild(customScript13);
+    document.body.appendChild(customScript14);
+    document.body.appendChild(customScript15);
+    document.body.appendChild(customScript16);
+
+
+    document.body.appendChild(customScript20);
+    document.body.appendChild(customScript21);
+    document.body.appendChild(customScript22);
+    document.body.appendChild(customScript23);
+    document.body.appendChild(customScript24);
+    document.body.appendChild(customScript25);
+    document.body.appendChild(customScript26);
+    document.body.appendChild(customScript27);
+    document.body.appendChild(customScript28);
+    document.body.appendChild(customScript29);
+    document.body.appendChild(customScript30);
+
+  },
   }
 }
 </script>
