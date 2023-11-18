@@ -3,35 +3,23 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hotel & Restaurant Simulator</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="admin_assets/img/favicon.png">
+
+
+     <link rel="stylesheet" href="admin_assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="admin_assets/css/feathericon.min.css">
+    <link rel="stylesheet" href="admin_assets/plugins/datatables/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="admin_assets/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylehseet" href="https://cdn.oesmith.co.uk/morris-0.5.1.css">
+    <link rel="stylesheet" href="admin_assets/plugins/morris/morris.css">
+    <link rel="stylesheet" href="admin_assets/css/style.css">
+    <link rel="stylesheet" href="admin_assets/plugins/fullcalendar/fullcalendar.min.css">
+
+
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
-
-
-
-<link rel="stylesheet" href="admin_assets/css/bootstrap.min.css">
-
-<link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/fontawesome.min.css">
-<link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/all.min.css">
-
-<link rel="stylesheet" href="admin_assets/css/feathericon.min.css">
-
-<link rel="stylesheet" href="admin_assets/plugins/datatables/datatables.min.css" />
-
-<link rel="stylesheet" type="text/css" href="admin_assets/css/bootstrap-datetimepicker.min.css" />
-
-<link rel="stylehseet" href="https://cdn.oesmith.co.uk/morris-0.5.1.css">
-<link rel="stylesheet" href="admin_assets/plugins/morris/morris.css">
-<link rel="stylesheet" href="admin_assets/css/style.css">
-<link rel="stylesheet" href="admin_assets/plugins/fullcalendar/fullcalendar.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
 
     <link rel="stylesheet" href="assets_gstart/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets_gstart/css/animate.css">
@@ -40,10 +28,43 @@
     <link rel="stylesheet" href="assets_gstart/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="assets_gstart/css/jquery.timepicker.css">
     <link rel="stylesheet" href="assets_gstart/css/fancybox.min.css">
-
     <link rel="stylesheet" href="assets_gstart/fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets_gstart/fonts/fontawesome/css/font-awesome.min.css">
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="assets_gstart/css/style.css">
 
+
+     <!-- Favicon -->
+    <link href="assets_hotel/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets_hotel/lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="assets_hotel/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets_hotel/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="assets_hotel/css/style.css" rel="stylesheet">
+    <link href="assets_hotel/css/signin.css" rel="stylesheet">
+
+
+     <link rel="stylesheet" href="assets_gstart/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets_gstart/css/animate.css">
+    <link rel="stylesheet" href="assets_gstart/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets_gstart/css/aos.css">
+    <link rel="stylesheet" href="assets_gstart/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets_gstart/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="assets_gstart/css/fancybox.min.css">
+    <link rel="stylesheet" href="assets_gstart/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets_gstart/fonts/fontawesome/css/font-awesome.min.css">
     <!-- Theme Style -->
     <link rel="stylesheet" href="assets_gstart/css/style.css">
 
@@ -57,7 +78,15 @@
       <img src="admin_assets/img/hotel_logo.png" width="50" height="70" alt="logo" />
       <span class="logoclass" >Hotel</span>
     </router-link>
-    
+    <router>
+    <ul class="custom-breadcrumbs mb-4">
+          <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>
+      <!--&bullet;-->
+          <td><a href="/About" class="btn btn-outline-white-primary py-0 text-white mr-0">About</a></td>
+         <td><a href="/Contact" class="btn btn-outline-white-primary py-0 text-white mr-0">Contact</a></td>
+        <td><a href="/Event" class="btn btn-outline-white-primary py-0 text-white mr-0">Event</a></td>
+        </ul>
+    </router>
   </div>
   <ul class="nav user-menu">
      <li class="nav-item dropdown has-arrow">
@@ -175,17 +204,8 @@
   <div class="container">
     <div class="row site-hero-inner justify-content-center align-items-center">
       <div class="col-md-10 text-center">
-        <span class="custom-caption text-uppercase text-white d-block  mb-3">Welcome To Hotel DE Resto <span class="fa fa-star text-primary"></span> SIMULATOR</span>
+        <span class="custom-caption text-uppercase text-white d-block  mb-3">Welcome To Hotel DE Resto <span class="fa fa-star text-orange"></span> SIMULATOR</span>
         <h1 class="heading">A Best Place To Stay</h1>
-        <ul class="custom-breadcrumbs mb-4">
-          <li><a href="/Hotel">Home</a></li>
-          <li>&bullet;</li>
-          <li><a href="/About">About</a></li>
-          <li>&bullet;</li>
-          <li><a href="/Contact">Contact</a></li>
-          <li>&bullet;</li>
-          <li><a href="/Event">Event</a></li>
-        </ul>
       </div>
     </div>
   </div>
@@ -198,6 +218,26 @@
 </section>
 <!-- END section -->
  
+ 
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5" >
+        <figure class="img-absolute">
+          <img src="assets_gstart/images/food-1.jpg" alt="Image" class="img-fluid">
+        </figure>
+        <img src="assets_gstart/images/img_1.jpg" alt="Image" class="img-fluid rounded">
+      </div>
+      <div class="col-md-12 col-lg-4 order-lg-1" >
+        <h2 class="heading">Welcome!</h2>
+        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p><a href="#" class="btn btn-primary text-white py-2 mr-3">Learn More</a> <span class="mr-3 font-family-serif"><em>or</em></span> <a href="https://vimeo.com/channels/staffpicks/93951774" data-fancybox class="text-uppercase letter-spacing-1">See video</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <!-- Search Bar components -->
 <section class="section">
@@ -206,6 +246,7 @@
       <div class="col-md-7">
         <h2 class="heading" >Rooms &amp; Suites</h2>
         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <a href="/Room" class="btn btn-primary text-white py-2 mr-3">View Rooms</a>
       </div>
     </div>
   </div>
@@ -350,21 +391,13 @@ export default {
     script1.src = 'https://code.jquery.com/jquery-3.6.4.min.js';
     script1.crossorigin = 'anonymous';
 
-    const customScript1 = document.createElement('script');
-    customScript1.src = 'assets_hotel/lib/easing/easing.min.js';
-
-    const customScript2 = document.createElement('script');
-    customScript2.src = 'assets_hotel/lib/waypoints/waypoints.min.js';
-
-    const customScript3 = document.createElement('script');
-    customScript3.src = 'assets_hotel/lib/owlcarousel/owl.carousel.min.js';
 
 
 
 
-    const customScript7 = document.createElement('script');
-    customScript7.src = 'admin_assets/js/bootstrap.min.js';
-    customScript7.crossorigin = 'anonymous';
+
+
+
   
   
     const customScript6 = document.createElement('script');
@@ -373,8 +406,6 @@ export default {
     const customScript8 = document.createElement('script');
     customScript8.src = 'admin_assets/js/moment.min.js';
 
-    const customScript9 = document.createElement('script');
-    customScript9.src = 'admin_assets/js/select2.min.js';
 
     const customScript11 = document.createElement('script');
     customScript11.src = 'admin_assets/plugins/raphael/raphael.min.js';
@@ -384,18 +415,13 @@ export default {
     const customScript13 = document.createElement('script');
     customScript13.src = 'admin_assets/plugins/datatables/jquery.dataTables.min.js';
 
-    const customScript14 = document.createElement('script');
-    customScript14.src = 'admin_assets/plugins/datatables/datatables.min.js';
 
-    const customScript15 = document.createElement('script');
-    customScript15.src = 'admin_assets/js/bootstrap-datetimepicker.min.js';
+
 
     const customScript16 = document.createElement('script');
     customScript16.src = 'admin_assets/js/jquery-ui.min.js';
 
 
-    const customScript20 = document.createElement('script');
-    customScript20.src = 'admin_assets/js/script.js';
 
 
 
@@ -443,25 +469,22 @@ export default {
     // Append the scripts to the document body
     document.body.appendChild(bootstrapScript);
     document.body.appendChild(script);
-    document.body.appendChild(customScript1);
-    document.body.appendChild(customScript2);
-    document.body.appendChild(customScript3);
+ 
 
     document.body.appendChild(customScript6);
-    document.body.appendChild(customScript7);
+
     document.body.appendChild(customScript8);
     document.body.appendChild(customScript8);
-    document.body.appendChild(customScript9);
+
   
     document.body.appendChild(customScript11);
  
     document.body.appendChild(customScript13);
-    document.body.appendChild(customScript14);
-    document.body.appendChild(customScript15);
+
     document.body.appendChild(customScript16);
 
 
-    document.body.appendChild(customScript20);
+
     document.body.appendChild(customScript21);
     document.body.appendChild(customScript22);
     document.body.appendChild(customScript23);
