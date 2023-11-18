@@ -125,64 +125,8 @@
   </div>
 </div>
     <!-- Navbar End -->
-        <!-- Side Nav -->
- <div class="sidebar" id="sidebar">
-  <div class="sidebar-inner slimscroll">
-    <div id="sidebar-menu" class="sidebar-menu">
-      <ul>
-        <li class="<?php if (url_is('/dashboard')) : ?>active<?php endif ?>"> <a href="/dashboard"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a> </li>
-        <li class="list-divider"></li>
-        <li class="submenu"> <a href="/bookings"><i class="fas fa-suitcase"></i> <span> Booking </span> <span class="menu-arrow"></span></a>
-          <ul class="submenu_class" style="display: none;">
-            <li><a class="<?php if (url_is('/bookings')) : ?>active<?php endif ?>" href="/bookings"> All Booking </a></li>
-            <li><a class="<?php if (url_is('/bookings/add')) : ?>active<?php endif ?>" href="/bookings/add"> Add Booking </a></li>
-          </ul>
-        </li>
-        <li class="submenu"> <a href="/customers"><i class="fas fa-user"></i> <span> Customers </span> <span class="menu-arrow"></span></a>
-          <ul class="submenu_class" style="display: none;">
-            <li><a class="<?php if (url_is('/customers')) : ?>active<?php endif ?>" href="/customers"> All customers </a></li>
-            <li><a class="<?php if (url_is('/customers/add')) : ?>active<?php endif ?>" href="/customers/add"> Add Customer </a></li>
-          </ul>
-        </li>
-        <li class="submenu"> <a href="/rooms"><i class="fas fa-key"></i> <span> Rooms </span> <span class="menu-arrow"></span></a>
-          <ul class="submenu_class" style="display: none;">
-            <li><a class="<?php if (url_is('/rooms')) : ?>active<?php endif ?>" href="/rooms">All Rooms </a></li>
 
-            <li><a class="<?php if (url_is('/rooms/add')) : ?>active<?php endif ?>" href="/AddRoom"> Add Rooms </a></li>
-          </ul>
-        </li>
-        <li class="submenu"> <a href="/Instructor"><i class="fas fa-user"></i> <span> Instructor </span> <span class="menu-arrow"></span></a>
-          <ul class="submenu_class" style="display: none;">
-            <li><a class="<?php if (url_is('/staffs')) : ?>active<?php endif ?>" href="/staffs">All Instructor </a></li>
-            <li><a class="<?php if (url_is('/staffs/edit')) : ?>active<?php endif ?>" href="/staffs/edit"> Edit Instructor </a></li>
-            <li><a class="<?php if (url_is('/staffs/add')) : ?>active<?php endif ?>" href="/staffs/add"> Add Instructor </a></li>
-          </ul>
-        </li>
-        <li class="<?php if (url_is('/pricings/*')) : ?>active<?php endif ?>"> <a href="/pricings"><i class="far fa-money-bill-alt"></i> <span>Pricing</span></a> </li>
-        <li class="submenu"> <a href="/Student"><i class="fas fa-user"></i> <span> Student </span> <span class="menu-arrow"></span></a>
-          <ul class="submenu_class" style="display: none;">
-            <li><a class="<?php if (url_is('/employees') || url_is('/employees/add') || url_is('/employees/edit')) : ?>active<?php endif ?>" href="/employees">Employees List </a></li>
-            <li><a class="<?php if (url_is('/employees/leaves/*')) : ?>active<?php endif ?>" href="/employees/leaves">Leaves </a></li>
-            <li><a class="<?php if (url_is('/employees/holidays/*')) : ?>active<?php endif ?>" href="/employees/holidays">Holidays </a></li>
-            <li><a class="<?php if (url_is('/employees/attendance/*')) : ?>active<?php endif ?>" href="/employees/attendance">Attendance </a></li>
-          </ul>
-        </li>
-
-        <li class="<?php if (url_is('/activities')) : ?>active<?php endif ?>"> <a href="/activities"><i class="far fa-bell"></i> <span>Activities</span></a> </li>
-        <li class="submenu"> <a href="/reports"><i class="fe fe-table"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
-          <ul class="submenu_class" style="display: none;">
-            <li><a class="<?php if (url_is('/reports/expenses')) : ?>active<?php endif ?>" href="/reports/expenses">Expense Report </a></li>
-            <li><a class="<?php if (url_is('/reports/invoices')) : ?>active<?php endif ?>" href="/reports/invoices">Invoice Report </a></li>
-          </ul>
-        </li>
-        <li> <a href="/settings"><i class="fas fa-cog"></i> <span>Settings</span></a> </li>
-
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!--<div id="layoutSidenav_content">
+<div id="layoutSidenav_content">
       <main>
         <div class="container-fluid px-2">
           <h1 class="mt-4">Dashboard</h1>
@@ -248,7 +192,7 @@
         </tbody>
       </table>
     </div>
-  </div>-->
+  </div>
 
      
       <footer class="py-4 bg-light mt-auto">
@@ -396,8 +340,7 @@ export default {
 
 
 
-    const customScript15 = document.createElement('script');
-    customScript15.src = 'admin_assets/js/bootstrap-datetimepicker.min.js';
+    
 
     const customScript16 = document.createElement('script');
     customScript16.src = 'admin_assets/js/jquery-ui.min.js';
@@ -424,11 +367,12 @@ export default {
 
     document.body.appendChild(customScript13);
 
-    document.body.appendChild(customScript15);
+
     document.body.appendChild(customScript16);
 
     document.body.appendChild(customScript20);
 
+    mA = 10;
   },
 };
 </script>

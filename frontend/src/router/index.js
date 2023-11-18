@@ -4,6 +4,7 @@ import SignupView from '../views/Auth/SignupView.vue'
 import HotelView from '../views/Hotel/HotelView.vue'
 import RoomView from '../views/Hotel/RoomView.vue'
 import BookingView from '../views/Hotel/BookingView.vue'
+import AddRoom from '../views/Admin/AddRoom.vue'
 import AdminView from '../views/Admin/AdminView.vue'
 
 const routes = [
@@ -32,6 +33,11 @@ const routes = [
     path: '/Booking',
     name: 'Booking',
     component: BookingView
+  },
+  {
+    path: '/AddRoom',
+    name: 'AddRoom',
+    component: AddRoom
   },
   {
     path: '/Hotel',

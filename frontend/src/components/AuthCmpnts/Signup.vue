@@ -64,7 +64,8 @@
                 </div>
 
                 <!-- Sign Up Form -->
-                              <form @submit.prevent="register">
+                  <form fast-fail @submit.prevent="register">
+                    <div v-if="message === 'error'">Invalid response</div>
                   <div class="form-floating mb-3">
                     <input v-model="username" type="text" class="form-control" placeholder="Username">
                     <label for="floatingInput">Username</label>
@@ -89,12 +90,13 @@
                     <input v-model="confirmPassword" type="password" class="form-control" placeholder="Confirm Password">
                     <label for="floatingConfirmPassword">Confirm Password</label>
                   </div>
+                  <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
                    <alert v-if="msg" :msg="msg" :classAlert="classAlert"></alert>
 
                   <div class="d-grid">
                     <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Sign up</button>
                     <div class="text-center">
-                      <router-link to="/" class="small">Already have an account? Sign in</router-link>
+                      <router-link to="/Signin" class="small">Already have an account? Sign in</router-link>
                     </div>
                   </div>
                 </form>
@@ -110,50 +112,39 @@
 </template>
 
 <script>
-import Alert from "@/components/Alert.vue";
+import router from '@/router';
+import axios from 'axios';
 export default {
-  components: {
-    Alert
-  },
   data() {
     return {
       username: '',
       email: '',
-      usertype: 'student',
+      usertype: '',
       password: '',
       confirmPassword: '',
-      msg: null,
-      classAlert: null
+      message: [],
     };
   },
   methods: {
-    methods: {
-    register() {
-      const form = new FormData();
-      form.append("username", this.username);
-      form.append("email", this.email);
-      form.append("usertype", this.usertype);
-      form.append("password", this.password);
-      form.append("confirmPassword", this.confirmPassword);
-
-    this.$guest
-        .post("/register", form)
-        .then(() => {
-          this.msg = "You have been successfully registered!";
-          this.classAlert = "success";
-          this.firstname = "";
-          this.lastname = "";
-          this.email = "";
-          this.password = "";
-          this.confirmPassword = "";
-      })
-       .catch(err => {
-          this.msg = err.response.data.messages.error;
-          this.classAlert = "danger";
-        });
+    async register() {
+      if (this.password === this.confirmPassword) {
+        const data = await axios.post("api/register", {
+          username: this.username,
+           email: this.email,
+            usertype: this.usertype,
+             password: this.password
+      });
+      this.message = data.data.msg;
+      if (data.data.msg === 'okay') {
+        // sessionStorage.setItem("jwt", data.data.token)
+        alert("Registered successfully");
+        router.push('/Signin');
     }
+  } else {
+    this.message = "passwordMismatch";
   }
-}
+  }
+  }
 };
 </script>
 

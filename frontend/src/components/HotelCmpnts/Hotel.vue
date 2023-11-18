@@ -356,14 +356,7 @@ export default {
       } catch (error) {
         console.log(error);
       }
-    },
-    getImageUrl(img) {
-      // Assuming you have a function to get the image URL
-      return `${process.env.BASE_URL}img/${img}`;
-    },
-    addToFavorites(productId) {
-      // Add logic to add product to favorites
-    },
+    }
   },
   mounted() {
     // Check if 'process' is defined before accessing 'env'

@@ -59,13 +59,13 @@
             <div class="row">
               <div class="col-md-9 col-lg-8 mx-auto">
                 <h3 class="login-heading mb-4">Welcome back!</h3>
-                <div v-if="flashMsg" class="alert alert-warning">
-                  {{ flashMsg }}
+                <div v-if="message" class="alert alert-warning">
+                  {{ message }}
                 </div>
                 <!-- Sign In Form -->
                   <sheet width="300" class="mx-auto"> 
                 <form fast-fail @submit.prevent="login"> 
-        <div v-if="flashMsg === 'error'">Invalid response</div> 
+        <div v-if="message === 'error'">Invalid response</div> 
                   <div class="form-floating mb-3">
                     <input v-model="username" type="text" class="form-control" placeholder="Username">
                     <label for="floatingInput">Username</label>
@@ -74,7 +74,7 @@
                     <input v-model="password" type="password" class="form-control" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                   </div>
-                    <div v-if="flashMsg === 'passwordMismatch'">Passwords do not match</div> 
+                    <div v-if="message === 'passwordMismatch'">Passwords do not match</div> 
                   <div class="d-grid">
                     <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">
                       Sign in
@@ -104,7 +104,7 @@ export default {
     return {
       username: "",
       password: "",
-      flashMsg: "",
+      message: "",
     }
   },
   methods: {

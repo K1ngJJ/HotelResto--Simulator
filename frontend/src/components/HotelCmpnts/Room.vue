@@ -65,7 +65,7 @@
     <router>
     <ul class="custom-breadcrumbs mb-4">
           <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>
-          <!--&bullet;-->
+           <!--&bullet;-->
           <td><a href="/About" class="btn btn-outline-white-primary py-0 text-white mr-0">About</a></td>
          <td><a href="/Contact" class="btn btn-outline-white-primary py-0 text-white mr-0">Contact</a></td>
         <td><a href="/Event" class="btn btn-outline-white-primary py-0 text-white mr-0">Event</a></td>
@@ -351,7 +351,18 @@ export default {
       // Assuming you have a function to get the image URL
       return `${process.env.BASE_URL}img/${img}`;
     },
+    mounted() {
+    // Check if 'process' is defined before accessing 'env'
+    if (process && process.env) {
+      // Access your environment variables
+      const myVariable = process.env.MY_VARIABLE;
 
+      // Use the variable as needed
+      console.log('My Variable:', myVariable);
+    } else {
+      console.error('Error: process or process.env is undefined');
+    }
+    },
     mounted() {
     // Add your script code here
     const bootstrapScript = document.createElement('script');
@@ -366,21 +377,13 @@ export default {
     script1.src = 'https://code.jquery.com/jquery-3.6.4.min.js';
     script1.crossorigin = 'anonymous';
 
-    const customScript1 = document.createElement('script');
-    customScript1.src = 'assets_hotel/lib/easing/easing.min.js';
-
-    const customScript2 = document.createElement('script');
-    customScript2.src = 'assets_hotel/lib/waypoints/waypoints.min.js';
-
-    const customScript3 = document.createElement('script');
-    customScript3.src = 'assets_hotel/lib/owlcarousel/owl.carousel.min.js';
 
 
 
 
-    const customScript7 = document.createElement('script');
-    customScript7.src = 'admin_assets/js/bootstrap.min.js';
-    customScript7.crossorigin = 'anonymous';
+
+
+
   
   
     const customScript6 = document.createElement('script');
@@ -389,8 +392,6 @@ export default {
     const customScript8 = document.createElement('script');
     customScript8.src = 'admin_assets/js/moment.min.js';
 
-    const customScript9 = document.createElement('script');
-    customScript9.src = 'admin_assets/js/select2.min.js';
 
     const customScript11 = document.createElement('script');
     customScript11.src = 'admin_assets/plugins/raphael/raphael.min.js';
@@ -400,18 +401,13 @@ export default {
     const customScript13 = document.createElement('script');
     customScript13.src = 'admin_assets/plugins/datatables/jquery.dataTables.min.js';
 
-    const customScript14 = document.createElement('script');
-    customScript14.src = 'admin_assets/plugins/datatables/datatables.min.js';
 
-    const customScript15 = document.createElement('script');
-    customScript15.src = 'admin_assets/js/bootstrap-datetimepicker.min.js';
+
 
     const customScript16 = document.createElement('script');
     customScript16.src = 'admin_assets/js/jquery-ui.min.js';
 
 
-    const customScript20 = document.createElement('script');
-    customScript20.src = 'admin_assets/js/script.js';
 
 
 
@@ -459,25 +455,22 @@ export default {
     // Append the scripts to the document body
     document.body.appendChild(bootstrapScript);
     document.body.appendChild(script);
-    document.body.appendChild(customScript1);
-    document.body.appendChild(customScript2);
-    document.body.appendChild(customScript3);
+ 
 
     document.body.appendChild(customScript6);
-    document.body.appendChild(customScript7);
+
     document.body.appendChild(customScript8);
     document.body.appendChild(customScript8);
-    document.body.appendChild(customScript9);
+
   
     document.body.appendChild(customScript11);
  
     document.body.appendChild(customScript13);
-    document.body.appendChild(customScript14);
-    document.body.appendChild(customScript15);
+
     document.body.appendChild(customScript16);
 
 
-    document.body.appendChild(customScript20);
+
     document.body.appendChild(customScript21);
     document.body.appendChild(customScript22);
     document.body.appendChild(customScript23);
@@ -489,11 +482,12 @@ export default {
     document.body.appendChild(customScript29);
     document.body.appendChild(customScript30);
 
+
   },
   }
-}
+};
 </script>
 
-<style>
-
+<style scoped>
+/* Add your component-specific styles here */
 </style>

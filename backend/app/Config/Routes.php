@@ -15,6 +15,7 @@ $routes->get('/', 'UserController::index');
 //$routes->post('/LoginAuth', 'UserController::LoginAuth');
 
 $routes->match(['post', 'get'],'/api/login', 'UserController::login');
+$routes->match(['post', 'get'],'/api/register', 'UserController::register');
 $routes->post('/save', 'MainController::save');
 $routes->post('/del', 'MainController::del');
 $routes->get('/edit/(:any)', 'UserController::edit/$1');
