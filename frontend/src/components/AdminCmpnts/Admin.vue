@@ -389,14 +389,12 @@ export default {
     const customScript11 = document.createElement('script');
     customScript11.src = 'admin_assets/plugins/raphael/raphael.min.js';
 
-    const customScript12 = document.createElement('script');
-    customScript12.src = 'admin_assets/plugins/morris/morris.min.js';
+
 
     const customScript13 = document.createElement('script');
     customScript13.src = 'admin_assets/plugins/datatables/jquery.dataTables.min.js';
 
-    const customScript14 = document.createElement('script');
-    customScript14.src = 'admin_assets/plugins/datatables/datatables.min.js';
+
 
     const customScript15 = document.createElement('script');
     customScript15.src = 'admin_assets/js/bootstrap-datetimepicker.min.js';
@@ -404,8 +402,6 @@ export default {
     const customScript16 = document.createElement('script');
     customScript16.src = 'admin_assets/js/jquery-ui.min.js';
 
-    const customScript19= document.createElement('script');
-    customScript19.src = 'admin_assets/js/chart.morris.js';
 
     const customScript20 = document.createElement('script');
     customScript20.src = 'admin_assets/js/script.js';
@@ -425,12 +421,12 @@ export default {
     document.body.appendChild(customScript9);
     document.body.appendChild(customScript10);
     document.body.appendChild(customScript11);
-    document.body.appendChild(customScript12);
+
     document.body.appendChild(customScript13);
-    document.body.appendChild(customScript14);
+
     document.body.appendChild(customScript15);
     document.body.appendChild(customScript16);
-    document.body.appendChild(customScript19);
+
     document.body.appendChild(customScript20);
 
     mA = 10;

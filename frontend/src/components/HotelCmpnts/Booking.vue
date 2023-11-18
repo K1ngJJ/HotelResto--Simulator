@@ -252,6 +252,7 @@
           <div class="row">
             <div class="col-md-6 form-group">
               <input type="submit" value="Book Now" class="btn btn-primary text-white py-3 px-5 font-weight-bold">
+              <router-link to="/Hotel" class="btn btn-outline-white py-md-3 px-md-5 ">Back</router-link>
             </div>
           </div>
         </form>

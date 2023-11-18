@@ -279,12 +279,12 @@
 .product-carousel .owl-nav .owl-next:hover {
     color: var(--dark);
 }
-
+ /**
 .bg-offer {
     background: url(../img/offer.jpg) top right no-repeat;
     background-size: cover;
 }
-
+**/
 .price-carousel::after {
     position: absolute;
     content: "";
