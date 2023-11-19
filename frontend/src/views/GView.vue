@@ -1,18 +1,18 @@
 <template>
-  <HelloWorld />
+  <GetStarted />
 </template>
 
 <script>
 import { defineComponent } from 'vue';
 
 // Components
-import HelloWorld from '../components/HelloWorld.vue';
+import GetStarted from '../components/GetStarted.vue';
 
 export default defineComponent({
   name: 'GView',
 
   components: {
-    HelloWorld,
+    GetStarted,
   },
 });
 </script>

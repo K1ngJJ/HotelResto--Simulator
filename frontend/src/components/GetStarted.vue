@@ -70,142 +70,14 @@
 
 </head>
 <body>
-        <!-- Navbar Start -->
-   <div class="header">
-   <div class="header-left">
-    
-
-    <a href="/Hotel" class="logo"> <img src="/admin_assets/img/hotel_logo.png" width="50" height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
-    <a href="/Hotel" class="logo logo-small"> <img src="/admin_assets/img/hotel_logo.png" alt="Logo" width="30" height="30"> </a>
-
-    <router>
-    <ul class="custom-breadcrumbs mb-4">
-         <small> <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>
-      <!--&bullet;-->
-          <td><a href="/About" class="btn btn-outline-white-primary py-0 text-white mr-0">About</a></td>
-         <td><a href="/Contact" class="btn btn-outline-white-primary py-0 text-white mr-0">Contact</a></td>
-        <td><a href="/Event" class="btn btn-outline-white-primary py-0 text-white mr-0">Event</a></td></small>
-        </ul>
-    </router>
-  </div>
-  <ul class="nav user-menu">
-     <li class="nav-item dropdown has-arrow">
-        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-          <span><strong><h7>More</h7></strong></span>
-        </a>
-        <div class="dropdown-menu">
-          <div class="user-header">
-            <div class="avatar avatar-sm">
-              <img src="/admin_assets/img/profiles/avatar-01.png" alt="User Image" class="avatar-img rounded-circle" />
-            </div>
-            <div class="user-text">
-              <h6>More</h6>
-              <p class="text-muted mb-0">info</p>
-            </div>
-          </div>
-          <router-link to="/profile" class="dropdown-item">Restaurant</router-link>
-          <router-link to="/Room" class="dropdown-item">Rooms</router-link>
-          <a href="/Events" class="dropdown-item">Events</a>
-        </div>
-      </li>
-    <li class="nav-item dropdown noti-dropdown">
-      <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <i class="fe fe-bell"></i> <span class="badge badge-pill">3</span> </a>
-      <div class="dropdown-menu notifications">
-        <div class="topnav-dropdown-header"> <span class="notification-title">Notifications</span> <a href="javascript:void(0)" class="clear-noti"> Clear All </a> </div>
-        <div class="noti-content">
-          <ul class="notification-list">
-            <li class="notification-message">
-              <a href="#">
-                <div class="media"> <span class="avatar avatar-sm">
-                    <img class="avatar-img rounded-circle" alt="User Image" src="admin_assets/img/profiles/avatar-02.jpg">
-                  </span>
-                  <div class="media-body">
-                    <p class="noti-details"><span class="noti-title">Carlson Tech</span> has approved <span class="noti-title">your estimate</span></p>
-                    <p class="noti-time"><span class="notification-time">4 mins ago</span> </p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="notification-message">
-              <a href="#">
-                <div class="media"> <span class="avatar avatar-sm">
-                    <img class="avatar-img rounded-circle" alt="User Image" src="admin_assets/img/profiles/avatar-11.jpg">
-                  </span>
-                  <div class="media-body">
-                    <p class="noti-details"><span class="noti-title">International Software
-                        Inc</span> has sent you a invoice in the amount of <span class="noti-title">$218</span></p>
-                    <p class="noti-time"><span class="notification-time">6 mins ago</span> </p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="notification-message">
-              <a href="#">
-                <div class="media"> <span class="avatar avatar-sm">
-                    <img class="avatar-img rounded-circle" alt="User Image" src="admin_assets/img/profiles/avatar-17.jpg">
-                  </span>
-                  <div class="media-body">
-                    <p class="noti-details"><span class="noti-title">John Hendry</span> sent a cancellation request <span class="noti-title">Apple iPhone
-                        XR</span></p>
-                    <p class="noti-time"><span class="notification-time">8 mins ago</span> </p>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="notification-message">
-              <a href="#">
-                <div class="media"> <span class="avatar avatar-sm">
-                    <img class="avatar-img rounded-circle" alt="User Image" src="admin_assets/img/profiles/avatar-13.jpg">
-                  </span>
-                  <div class="media-body">
-                    <p class="noti-details"><span class="noti-title">Mercury Software
-                        Inc</span> added a new product <span class="noti-title">Apple
-                        MacBook Pro</span></p>
-                    <p class="noti-time"><span class="notification-time">12 mins ago</span> </p>
-                  </div>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="topnav-dropdown-footer"> <a href="#">View all Notifications</a> </div>
-      </div>
-    </li>
-    <li class="nav-item dropdown has-arrow">
-        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-          <span class="user-img"><img class="rounded-circle" src="/admin_assets/img/profiles/avatar-01.png" width="31" alt="User Name" /></span>
-        </a>
-        <div class="dropdown-menu">
-          <div class="user-header">
-            <div class="avatar avatar-sm">
-              <img src="/admin_assets/img/profiles/avatar-01.png" alt="User Image" class="avatar-img rounded-circle" />
-            </div>
-            <div class="user-text">
-              <h6>S</h6>
-              <p class="text-muted mb-0">Administrator</p>
-            </div>
-          </div>
-          <router-link to="/profile" class="dropdown-item">My Profile</router-link>
-          <router-link to="/settings" class="dropdown-item">Account Settings</router-link>
-          <a href="/Signin" class="dropdown-item">Logout</a>
-        </div>
-      </li>
-    </ul>
-    <div class="top-nav-search">
-      <form>
-        <input type="text" class="form-control" placeholder="Search here" />
-        <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-      </form>
-    </div>
-  </div>
-    <!-- Navbar End -->
         <!-- Hero Start -->
-<section class="site-hero overlay" style="background-image: url(assets_gstart/images/hero_4.jpg)" data-stellar-background-ratio="0.5">
+<section class="site-hero overlay" style="background-image: url(assets_gstart/images/slider-6.jpg)" data-stellar-background-ratio="0.5">
   <div class="container">
     <div class="row site-hero-inner justify-content-center align-items-center">
       <div class="col-md-10 text-center">
         <span class="custom-caption text-uppercase text-white d-block  mb-3">Welcome To Hotel DE Resto <span class="fa fa-star text-orange"></span> SIMULATOR</span>
         <h1 class="heading">A Best Place To Stay</h1>
+        <router-link to="/Signin" class="btn btn-primary py-md-3 px-md-5 me-3">Get Started!</router-link>
       </div>
     </div>
   </div>
@@ -229,29 +101,13 @@
         <img src="assets_gstart/images/img_1.jpg" alt="Image" class="img-fluid rounded">
       </div>
       <div class="col-md-12 col-lg-4 order-lg-1" >
-        <h2 class="heading">Welcome!</h2>
+        <h2 class="heading">Welcome to our HRSim!</h2>
         <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
         <p><a href="#" class="btn btn-primary text-white py-2 mr-3">Learn More</a> <span class="mr-3 font-family-serif"><em>or</em></span> <a href="https://vimeo.com/channels/staffpicks/93951774" data-fancybox class="text-uppercase letter-spacing-1">See video</a></p>
       </div>
     </div>
   </div>
 </section>
-
-
-
-<!-- Search Bar components -->
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-center text-center mb-5">
-      <div class="col-md-7">
-        <h2 class="heading" >Rooms &amp; Suites</h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-        <a href="/Room" class="btn btn-primary text-white py-2 mr-3">View Rooms</a>
-      </div>
-    </div>
-  </div>
-</section>
-    <!-- Hero End -->
    
   <section class="section bg-image overlay" style="background-image: url('assets_gstart/images/hero_4.jpg');">
   <div class="container">
@@ -260,18 +116,7 @@
         <h2 class="text-white font-weight-bold">A Best Place To Stay. Book Now!</h2>
       </div>
       <div class="col-12 col-md-6 text-center text-md-right">
-        <a href="/Booking" class="btn btn-outline-white-primary py-3 text-white px-5">Book Now</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section blog-post-entry bg-light">
-  <div class="container">
-    <div class="row justify-content-center text-center mb-5">
-      <div class="col-md-7">
-        <h2 class="heading" >Events</h2>
-        <p >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <a href="/Signin" class="btn btn-outline-white-primary py-3 text-white px-5">Book Now</a>
       </div>
     </div>
   </div>
@@ -282,36 +127,17 @@
     <div class="row mb-4">
       <div class="col-md-3 mb-5">
         <ul class="list-unstyled link">
-          <li><a href="#">About Us</a></li>
           <li><a href="#">Terms &amp; Conditions</a></li>
           <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Rooms</a></li>
         </ul>
       </div>
-      <div class="col-md-3 mb-5">
-        <ul class="list-unstyled link">
-          <li><a href="#">The Rooms &amp; Suites</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Restaurant</a></li>
-        </ul>
-      </div>
+    </div>
       <div class="col-md-3 mb-5 pr-md-5 contact-info">
         <!-- <li>198 West 21th Street, <br> Suite 721 New York NY 10016</li> -->
         <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span> <span> 198 West 21th Street, <br> Suite 721 New York NY 10016</span></p>
         <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span> <span> (+1) 435 3533</span></p>
         <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span> info@domain.com</span></p>
       </div>
-      <div class="col-md-3 mb-5">
-        <p>Sign up for our newsletter</p>
-        <form action="#" class="footer-newsletter">
-          <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email...">
-            <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
-          </div>
-        </form>
-      </div>
-    </div>
     <div class="row pt-5">
       <p class="col-md-6 text-left">
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

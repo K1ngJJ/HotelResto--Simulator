@@ -74,10 +74,9 @@
    <div class="header">
    <div class="header-left">
     
-    <router-link to="/dashboard/dashboard" class="logo">
-      <img src="admin_assets/img/hotel_logo.png" width="50" height="70" alt="logo" />
-      <span class="logoclass" >Hotel</span>
-    </router-link>
+    <a href="" class="logo"> <img src="/admin_assets/img/hotel_logo.png" width="50" height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
+    <a href="" class="logo logo-small"> <img src="/admin_assets/img/hotel_logo.png" alt="Logo" width="30" height="30"> </a>
+  
     <router>
     <ul class="custom-breadcrumbs mb-4">
          <small> <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>

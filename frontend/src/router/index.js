@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import GView from '../views/GView.vue'
 import SigninView from '../views/Auth/SigninView.vue'
 import SignupView from '../views/Auth/SignupView.vue'
 import HotelView from '../views/Hotel/HotelView.vue'
@@ -9,14 +10,21 @@ import AdminView from '../views/Admin/AdminView.vue'
 
 const routes = [
   {
+    path: '/',
+    name: 'GetStarted',
+    component: GView,
+  },
+  {
     path: '/Signin',
     name: 'Signin',
     component: SigninView,
+    meta :{requiresAuth: true}
   },
   {
     path: '/Signup',
     name: 'Signup',
     component: SignupView,
+    meta :{requiresAuth: true}
   },
   {
     path: '/Admin',
@@ -58,7 +66,7 @@ router.beforeEach((to, from, next) =>{
   const isLoggedin = checkUserLogin();
   if(to.matched.some((record) =>record.meta.requiresAuth)){
     if(!isLoggedin){
-      next("/Signin");
+      next("/");
     }else{
       next();
     }
