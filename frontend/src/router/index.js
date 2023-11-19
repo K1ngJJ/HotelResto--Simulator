@@ -11,22 +11,17 @@ const routes = [
   {
     path: '/Signin',
     name: 'Signin',
-    meta: {
-      guest: true
-   }
+    component: SigninView,
   },
   {
     path: '/Signup',
     name: 'Signup',
-    meta: {
-      guest: true
-   }
+    component: SignupView,
   },
   {
     path: '/Admin',
     name: 'Admin',
     component: AdminView,
-    meta :{requiresAuth: true}
     
   },
   {

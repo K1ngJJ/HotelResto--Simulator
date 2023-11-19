@@ -103,7 +103,7 @@
                    <alert v-if="msg" :msg="msg" :classAlert="classAlert"></alert>
 
                   <div class="d-grid">
-                    <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Sign up</button>
+                    <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit" >Sign up</button>
                     <div class="text-center">
                       <router-link to="/Signin" class="small">Already have an account? Sign in</router-link>
                     </div>
@@ -154,7 +154,7 @@ export default {
   } else {
     this.message = "passwordMismatch";
   }
-  }
+    }
   },
   setup() {
     let username = ref("");
