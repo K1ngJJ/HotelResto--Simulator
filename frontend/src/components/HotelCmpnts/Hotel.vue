@@ -80,11 +80,11 @@
     </router-link>
     <router>
     <ul class="custom-breadcrumbs mb-4">
-          <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>
+         <small> <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>
       <!--&bullet;-->
           <td><a href="/About" class="btn btn-outline-white-primary py-0 text-white mr-0">About</a></td>
          <td><a href="/Contact" class="btn btn-outline-white-primary py-0 text-white mr-0">Contact</a></td>
-        <td><a href="/Event" class="btn btn-outline-white-primary py-0 text-white mr-0">Event</a></td>
+        <td><a href="/Event" class="btn btn-outline-white-primary py-0 text-white mr-0">Event</a></td></small>
         </ul>
     </router>
   </div>

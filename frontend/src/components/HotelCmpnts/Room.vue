@@ -2,13 +2,12 @@
   <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" type="image/x-icon" href="admin_assets/img/favicon.png">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
 
-    <link rel="stylesheet" href="admin_assets/css/bootstrap.min.css">
+
+     <link rel="stylesheet" href="admin_assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="admin_assets/plugins/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="admin_assets/css/feathericon.min.css">
@@ -18,7 +17,24 @@
     <link rel="stylesheet" href="admin_assets/plugins/morris/morris.css">
     <link rel="stylesheet" href="admin_assets/css/style.css">
     <link rel="stylesheet" href="admin_assets/plugins/fullcalendar/fullcalendar.min.css">
-       <!-- Favicon -->
+
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
+
+    <link rel="stylesheet" href="assets_gstart/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets_gstart/css/animate.css">
+    <link rel="stylesheet" href="assets_gstart/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets_gstart/css/aos.css">
+    <link rel="stylesheet" href="assets_gstart/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets_gstart/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="assets_gstart/css/fancybox.min.css">
+    <link rel="stylesheet" href="assets_gstart/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets_gstart/fonts/fontawesome/css/font-awesome.min.css">
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="assets_gstart/css/style.css">
+
+
+     <!-- Favicon -->
     <link href="assets_hotel/img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
@@ -40,8 +56,7 @@
     <link href="assets_hotel/css/signin.css" rel="stylesheet">
 
 
-
-    <link rel="stylesheet" href="assets_gstart/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets_gstart/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets_gstart/css/animate.css">
     <link rel="stylesheet" href="assets_gstart/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets_gstart/css/aos.css">
@@ -52,6 +67,7 @@
     <link rel="stylesheet" href="assets_gstart/fonts/fontawesome/css/font-awesome.min.css">
     <!-- Theme Style -->
     <link rel="stylesheet" href="assets_gstart/css/style.css">
+
 </head>
 <body>
         <!-- Navbar Start -->
@@ -60,26 +76,20 @@
     
     <router-link to="/dashboard/dashboard" class="logo">
       <img src="admin_assets/img/hotel_logo.png" width="50" height="70" alt="logo" />
-      <span class="logoclass">HOTEL</span>
+      <span class="logoclass" >Hotel</span>
     </router-link>
     <router>
     <ul class="custom-breadcrumbs mb-4">
-          <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>
-           <!--&bullet;-->
-          <td><a href="/About" class="btn btn-outline-white-primary py-0 text-white mr-0">About</a></td>
-         <td><a href="/Contact" class="btn btn-outline-white-primary py-0 text-white mr-0">Contact</a></td>
-        <td><a href="/Event" class="btn btn-outline-white-primary py-0 text-white mr-0">Event</a></td>
-          </ul>
+         <small> <td><a href="/Hotel" class="btn btn-primary text-black py-0 mr-0">Home</a></td>
+      <!--&bullet;-->
+          </small>
+        </ul>
     </router>
-    
-    <router-link to="/dashboard/dashboard" class="logo logo-small">
-      <img src="admin_assets/img/hotel_logo.png" alt="Logo" width="30" height="30" />
-    </router-link>
   </div>
   <ul class="nav user-menu">
      <li class="nav-item dropdown has-arrow">
         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-          <span class="user-img"><strong><h7>More</h7></strong></span>
+          <span><strong><h7>More</h7></strong></span>
         </a>
         <div class="dropdown-menu">
           <div class="user-header">
@@ -92,7 +102,7 @@
             </div>
           </div>
           <router-link to="/profile" class="dropdown-item">Restaurant</router-link>
-          <router-link to="/settings" class="dropdown-item">Rooms</router-link>
+          <router-link to="/Room" class="dropdown-item">Rooms</router-link>
           <a href="/Events" class="dropdown-item">Events</a>
         </div>
       </li>
@@ -187,7 +197,7 @@
     </div>
   </div>
     <!-- Navbar End -->
-        <!-- Hero Start -->
+ <!-- Hero Start -->
 <section class="site-hero inner-page overlay" style="background-image: url(assets_gstart/images/hero_4.jpg)" data-stellar-background-ratio="0.5">
    <div class="container-fluid bg-offer py-5 mb-5">
     <div class="container py-5">
@@ -242,7 +252,7 @@
          <div class="">
           <div v-for="product in product" :key="product.id" class="pb-5">
             <div class="product-item position-relative d-flex flex-column text-center btn btn-outline-dark py-md-3 px-md-8">
-              <img class="img-fluid mb-4" :src="getImageUrl(product.roomImg)" alt="">
+              <img class="img-fluid mb-4" :src="(product.roomImg)" alt="">
               <br>
               <h6 class=" text-orange mb-0 font-weight-bold">{{ product.roomName }}</h6>
               <br>
@@ -265,7 +275,6 @@
     </div>
   </div>
 </section>
-     
 
 <footer class="section footer-section">
   <div class="container">
@@ -346,12 +355,9 @@ export default {
       } catch (error) {
         console.log(error);
       }
-    },
-        getImageUrl(img) {
-      // Assuming you have a function to get the image URL
-      return `${process.env.BASE_URL}img/${img}`;
-    },
-    mounted() {
+    }
+  },
+  mounted() {
     // Check if 'process' is defined before accessing 'env'
     if (process && process.env) {
       // Access your environment variables
@@ -362,7 +368,7 @@ export default {
     } else {
       console.error('Error: process or process.env is undefined');
     }
-    },
+  },
     mounted() {
     // Add your script code here
     const bootstrapScript = document.createElement('script');
@@ -482,9 +488,7 @@ export default {
     document.body.appendChild(customScript29);
     document.body.appendChild(customScript30);
 
-
   },
-  }
 };
 </script>
 
