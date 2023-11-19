@@ -22,7 +22,7 @@ const routes = [
     path: '/Admin',
     name: 'Admin',
     component: AdminView,
-    
+    meta :{requiresAuth: true}
   },
   {
     path: '/Room',

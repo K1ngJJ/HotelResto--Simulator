@@ -63,20 +63,20 @@
                 <!-- Sign In Form -->
                   <sheet width="300" class="mx-auto"> 
                 <form fast-fail @submit.prevent="login"> 
-                <div v-if="message === 'error'">Invalid response</div> 
+              <!--  <p v-if="Object.keys(errors).length != 0" class='text-center '><small class='text-danger'>Incorrect Email or Password</small></p>-->
                   <div class="form-floating mb-3">
                     <input v-model="username" type="text" class="form-control" placeholder="Username"  @keyup="validateInput" @blur="validateInput">
                     <label for="floatingInput">Username</label>
-                     <div class="ui basic label pointing red" v-if="errors.name">
-                    {{ errors.name }}
+                     <div class="ui basic label pointing red text-center" v-if="errors.username">
+                     <small class='text-danger'>{{ errors.username }}</small>
                     </div>
                   </div>
                   <div class="form-floating mb-3">
                     <input v-model="password" type="password" class="form-control" placeholder="Password" @keyup="validateInput" @blur="validateInput">
                     <label for="floatingPassword">Password</label>
-                    <div class="ui basic label pointing red" v-if="errors.password">
-                    {{ errors.password }}
-                   </div>
+                     <div class="ui basic label pointing red text-center" v-if="errors.password">
+                     <small class='text-danger'>{{ errors.password }}</small>
+                    </div>
                   </div>
                     <div v-if="message === 'passwordMismatch'">Passwords do not match</div> 
                   <div class="d-grid">
@@ -111,11 +111,13 @@ export default {
     return {
       username: "",
       password: "",
-      message: "",
+      validationErrors:{},
+      isSubmitting:false,
     }
   },
   methods: {
     async login() {
+      this.isSubmitting = true
       const d = await axios.post("api/login",{
         username: this.username,
         password: this.password

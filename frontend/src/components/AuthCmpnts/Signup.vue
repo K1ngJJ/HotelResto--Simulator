@@ -59,25 +59,25 @@
             <div class="row">
               <div class="col-md-9 col-lg-8 mx-auto">
                 <h3 class="login-heading mb-4">Get Started!</h3>
-                <div v-if="flashMsg" class="alert alert-warning">
-                  {{ flashMsg }}
-                </div>
+               <!-- <div v-if="message" class="alert alert-warning">
+                  {{ message }}
+                </div>-->
 
                 <!-- Sign Up Form -->
                   <form fast-fail @submit.prevent novalidate="register">
-                    <div v-if="message === 'error'">Invalid response</div>
+                   <!-- <div v-if="message === 'error'">Invalid response</div>-->
                   <div class="form-floating mb-3">
                     <input v-model="username" type="text" class="form-control" placeholder="Username" @keyup="validateInput" @blur="validateInput">
                     <label for="floatingInput">Username</label>
-                    <div class="ui basic label pointing red" v-if="errors.name">
-                    {{ errors.name }}
+                    <div class="ui basic label pointing red text-center" v-if="errors.username">
+                     <small class='text-danger'>{{ errors.username }}</small>
                     </div>
                   </div>
                   <div class="form-floating mb-3">
                     <input v-model="email" type="email" class="form-control" placeholder="Email" @keyup="validateInput" @blur="validateInput">
                     <label for="floatingEmail">Email</label>
-                     <div class="ui basic label pointing red" v-if="errors.email">
-                      {{ errors.email }}
+                    <div class="ui basic label pointing red text-center" v-if="errors.email">
+                     <small class='text-danger'>{{ errors.email }}</small>
                     </div>
                   </div>
                   <div class="form-floating mb-3">
@@ -89,18 +89,18 @@
                     <label for="usertype">User Type</label>
                   </div>
                   <div class="form-floating mb-3">
-                    <input v-model="password" type="password" class="form-control" placeholder="Password">
+                    <input v-model="password" type="password" class="form-control" placeholder="Password" @keyup="validateInput" @blur="validateInput">
                     <label for="floatingPassword">Password</label>
-                    <div class="ui basic label pointing red" v-if="errors.password">
-                    {{ errors.password }}
-                   </div>
                   </div>
                   <div class="form-floating mb-3">
                     <input v-model="confirmPassword" type="password" class="form-control" placeholder="Confirm Password">
-                    <label for="floatingConfirmPassword">Confirm Password</label>
+                    <label for="floatingConfirm Password">Confirm Password</label>
+                    <div class="ui basic label pointing red text-center" v-if="errors.password">
+                     <small class='text-danger'>{{ errors.password }}</small>
+                    </div>
                   </div>
-                  <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
-                   <alert v-if="msg" :msg="msg" :classAlert="classAlert"></alert>
+                 <!-- <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
+                   <alert v-if="msg" :msg="msg" :classAlert="classAlert"></alert>-->
 
                   <div class="d-grid">
                     <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit" >Sign up</button>
@@ -133,7 +133,7 @@ export default {
       usertype: '',
       password: '',
       confirmPassword: '',
-      message: [],
+      message: '',
     };
   },
   methods: {
@@ -160,10 +160,10 @@ export default {
     let username = ref("");
     let email = ref("");
     let password = ref("");
-    const { validateEmailField, validateNameField, validatePasswordField, errors } = useFormValidation();
+    const { validateNameField, validateEmailField, validatePasswordField, errors } = useFormValidation();
     const validateInput = () => {
-      validateEmailField("email", email.value);
       validateNameField("username", username.value);
+      validateEmailField("email", email.value);
       validatePasswordField("password", password.value);
     };
     return { username, email, password, errors, validateInput };
