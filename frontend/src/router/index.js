@@ -11,33 +11,41 @@ const routes = [
   {
     path: '/Signin',
     name: 'Signin',
-    component: SigninView
+    meta: {
+      guest: true
+   }
   },
   {
     path: '/Signup',
     name: 'Signup',
-    component: SignupView
+    meta: {
+      guest: true
+   }
   },
   {
     path: '/Admin',
     name: 'Admin',
-    component: AdminView
+    component: AdminView,
+    meta :{requiresAuth: true}
     
   },
   {
     path: '/Room',
     name: 'Room',
-    component: RoomView
+    component: RoomView,
+    meta :{requiresAuth: true}
   },
   {
     path: '/Booking',
     name: 'Booking',
-    component: BookingView
+    component: BookingView,
+    meta :{requiresAuth: true}
   },
   {
     path: '/AddRoom',
     name: 'AddRoom',
-    component: AddRoom
+    component: AddRoom,
+    meta :{requiresAuth: true}
   },
   {
     path: '/Hotel',

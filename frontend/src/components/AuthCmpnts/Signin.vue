@@ -59,20 +59,24 @@
             <div class="row">
               <div class="col-md-9 col-lg-8 mx-auto">
                 <h3 class="login-heading mb-4">Welcome back!</h3>
-                <div v-if="message" class="alert alert-warning">
-                  {{ message }}
-                </div>
+    
                 <!-- Sign In Form -->
                   <sheet width="300" class="mx-auto"> 
                 <form fast-fail @submit.prevent="login"> 
-        <div v-if="message === 'error'">Invalid response</div> 
+                <div v-if="message === 'error'">Invalid response</div> 
                   <div class="form-floating mb-3">
-                    <input v-model="username" type="text" class="form-control" placeholder="Username">
+                    <input v-model="username" type="text" class="form-control" placeholder="Username"  @keyup="validateInput" @blur="validateInput">
                     <label for="floatingInput">Username</label>
+                     <div class="ui basic label pointing red" v-if="errors.name">
+                    {{ errors.name }}
+                    </div>
                   </div>
                   <div class="form-floating mb-3">
-                    <input v-model="password" type="password" class="form-control" placeholder="Password">
+                    <input v-model="password" type="password" class="form-control" placeholder="Password" @keyup="validateInput" @blur="validateInput">
                     <label for="floatingPassword">Password</label>
+                    <div class="ui basic label pointing red" v-if="errors.password">
+                    {{ errors.password }}
+                   </div>
                   </div>
                     <div v-if="message === 'passwordMismatch'">Passwords do not match</div> 
                   <div class="d-grid">
@@ -99,6 +103,9 @@
 <script>
 import axios from 'axios';
 import router from '@/router';
+import { ref } from "vue";
+import useFormValidation from "@/plugins/useFormValidation";
+
 export default {
   data() {
     return {
@@ -121,7 +128,16 @@ export default {
       // You can use this.username and this.password to get the entered values
       // Set this.flashMessage based on the login result or show error messages
     },
-    
+  },
+  setup() {
+    let username = ref("");
+    let password = ref("");
+    const { validateNameField, validatePasswordField, errors } = useFormValidation();
+    const validateInput = () => {
+      validateNameField("username", username.value);
+      validatePasswordField("password", password.value);
+    };
+    return { username, password, errors, validateInput };
   },
 };
 </script>

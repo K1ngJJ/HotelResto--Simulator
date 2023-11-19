@@ -64,15 +64,21 @@
                 </div>
 
                 <!-- Sign Up Form -->
-                  <form fast-fail @submit.prevent="register">
+                  <form fast-fail @submit.prevent novalidate="register">
                     <div v-if="message === 'error'">Invalid response</div>
                   <div class="form-floating mb-3">
-                    <input v-model="username" type="text" class="form-control" placeholder="Username">
+                    <input v-model="username" type="text" class="form-control" placeholder="Username" @keyup="validateInput" @blur="validateInput">
                     <label for="floatingInput">Username</label>
+                    <div class="ui basic label pointing red" v-if="errors.name">
+                    {{ errors.name }}
+                    </div>
                   </div>
                   <div class="form-floating mb-3">
-                    <input v-model="email" type="email" class="form-control" placeholder="Email">
+                    <input v-model="email" type="email" class="form-control" placeholder="Email" @keyup="validateInput" @blur="validateInput">
                     <label for="floatingEmail">Email</label>
+                     <div class="ui basic label pointing red" v-if="errors.email">
+                      {{ errors.email }}
+                    </div>
                   </div>
                   <div class="form-floating mb-3">
                     <select v-model="usertype" class="form-control" id="usertype">
@@ -85,6 +91,9 @@
                   <div class="form-floating mb-3">
                     <input v-model="password" type="password" class="form-control" placeholder="Password">
                     <label for="floatingPassword">Password</label>
+                    <div class="ui basic label pointing red" v-if="errors.password">
+                    {{ errors.password }}
+                   </div>
                   </div>
                   <div class="form-floating mb-3">
                     <input v-model="confirmPassword" type="password" class="form-control" placeholder="Confirm Password">
@@ -114,6 +123,8 @@
 <script>
 import router from '@/router';
 import axios from 'axios';
+import { ref } from "vue";
+import useFormValidation from "@/plugins/useFormValidation";
 export default {
   data() {
     return {
@@ -136,7 +147,7 @@ export default {
       });
       this.message = data.data.msg;
       if (data.data.msg === 'okay') {
-        // sessionStorage.setItem("jwt", data.data.token)
+        sessionStorage.setItem("token", data.data.token)
         alert("Registered successfully");
         router.push('/Signin');
     }
@@ -144,7 +155,19 @@ export default {
     this.message = "passwordMismatch";
   }
   }
-  }
+  },
+  setup() {
+    let username = ref("");
+    let email = ref("");
+    let password = ref("");
+    const { validateEmailField, validateNameField, validatePasswordField, errors } = useFormValidation();
+    const validateInput = () => {
+      validateEmailField("email", email.value);
+      validateNameField("username", username.value);
+      validatePasswordField("password", password.value);
+    };
+    return { username, email, password, errors, validateInput };
+  },
 };
 </script>
 
