@@ -100,6 +100,25 @@ class MainController extends ResourceController
             return $this->respond($r, 200);
         }
 
+        public function doUpload()
+   {
+       $file = $this->request->getFile('roomImg');
+
+       // Check if the file is valid
+       if ($file->isValid() && !$file->hasMoved()) {
+           // Move the file to a writable directory
+           $newName = $file->getRandomName();
+           $file->move(ROOTPATH . 'public/uploads', $newName);
+
+           // You can do additional processing or save the file details to the database if needed
+
+           return json_encode(['status' => 'success', 'message' => 'File uploaded successfully']);
+       } else {
+           return json_encode(['status' => 'error', 'message' => $file->getErrorString()]);
+       }
+   }
+
+
         public function getData()
         {
             $product = new ProductModel();

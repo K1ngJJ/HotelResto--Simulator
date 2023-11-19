@@ -133,23 +133,27 @@
           <ol class="breadcrumb mb-4">
             <li class="breadcrumb-item active">Dashboard</li>
           </ol>
-          
            <form @submit.prevent="save" enctype="multipart/form-data">
             <div class="form-floating mb-3">
-              <input type="file" class="form-control" ref="fileInput" @change="roomImg" >
-              <label for="roomImg">Room Image</label>
+              <input type="file" class="form-control" ref="fileInput" @change="handleFileChange" placeholder="roomImg"/>
+              <label for="floatingroomImg">Room Image</label>
+                <div v-if="previewUrl">
+                  <h4>Preview:</h4>
+                  <img :src="previewUrl" alt="File Preview" />
+                </div>
+                 <button @click="uploadFile">Upload</button>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" v-model="roomName">
-              <label for="roomName">Name</label>
+              <input type="text" class="form-control" v-model="roomName"  placeholder="RoomName">
+              <label for="floatingRoomName">Room Name</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" v-model="roomDescription">
-              <label for="roomDescription">Room Description</label>
+              <input type="text" class="form-control" v-model="roomDescription" placeholder="roomDescription">
+              <label for="floatingroomDescription">Room Description</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="number" class="form-control" v-model="roomPrice">
-              <label for="roomPrice">Room Price</label>
+              <input type="number" class="form-control" v-model="roomPrice" placeholder="roomPrice">
+              <label for="floatingroomPrice">Room Price</label>
             </div>
             <div class="d-grid">
             <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Add Room</button>
@@ -224,6 +228,7 @@ export default {
       roomName: "",
       roomPrice: "",
       roomDescription: "",
+      previewUrl: null,
     }
   },
   created(){
@@ -266,11 +271,50 @@ export default {
           
         }
     },
-    handleFileChange(event) {
-      const file = event.target.files[0];
+    handleFileChange() {
+      const fileInput = this.$refs.fileInput;
+      const file = fileInput.files[0];
+
       if (file) {
-        this.roomImg = file;
+        this.displayFilePreview(file);
+      } else {
+        this.previewUrl = null;
+        console.error('No file selected');
       }
+    },
+    displayFilePreview(file) {
+      const reader = new FileReader();
+
+      reader.onload = (event) => {
+        this.previewUrl = event.target.result;
+      };
+
+      reader.readAsDataURL(file);
+    },
+    uploadFile() {
+      const fileInput = this.$refs.fileInput;
+      const file = fileInput.files[0];
+
+      if (file) {
+        this.uploadFileToServer(file);
+      } else {
+        this.previewUrl = null;
+        console.error('No file selected');
+      }
+    },
+    uploadFileToServer(file) {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      // Make a POST request to your API endpoint
+      // Adjust the URL and other options based on your API requirements
+      axios.post('upload', formData)
+        .then(response => {
+          console.log('File uploaded successfully', response.data);
+        })
+        .catch(error => {
+          console.error('Error uploading file', error);
+        });
     }
   },
     mounted() {
