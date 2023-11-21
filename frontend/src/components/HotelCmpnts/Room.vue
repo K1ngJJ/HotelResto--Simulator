@@ -249,6 +249,7 @@
     <div id="shop" class="container-fluid py-2">
       <div class="container">
          <div class="">
+          
           <div v-for="product in product" :key="product.id" class="pb-5">
             <div class="product-item position-relative d-flex flex-column text-center btn btn-outline-dark py-md-3 px-md-8">
               <img class="img-fluid mb-4" :src="(product.roomImg)" alt="">
@@ -354,6 +355,51 @@ export default {
       } catch (error) {
         console.log(error);
       }
+    },
+     handleFileChange() {
+      const fileInput = this.$refs.fileInput;
+      const file = fileInput.files[0];
+
+      if (file) {
+        this.displayFilePreview(file);
+      } else {
+        this.previewUrl = null;
+        console.error('No file selected');
+      }
+    },
+    displayFilePreview(file) {
+      const reader = new FileReader();
+
+      reader.onload = (event) => {
+        this.previewUrl = event.target.result;
+      };
+
+      reader.readAsDataURL(file);
+    },
+    uploadFile() {
+      const fileInput = this.$refs.fileInput;
+      const file = fileInput.files[0];
+
+      if (file) {
+        this.uploadFileToServer(file);
+      } else {
+        this.previewUrl = null;
+        console.error('No file selected');
+      }
+    },
+    uploadFileToServer(file) {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      // Make a POST request to your API endpoint
+      // Adjust the URL and other options based on your API requirements
+      axios.post('upload', formData)
+        .then(response => {
+          console.log('File uploaded successfully', response.data);
+        })
+        .catch(error => {
+          console.error('Error uploading file', error);
+        });
     }
   },
   mounted() {

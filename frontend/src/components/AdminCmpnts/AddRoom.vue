@@ -134,14 +134,13 @@
             <li class="breadcrumb-item active">Dashboard</li>
           </ol>
            <form @submit.prevent="save" enctype="multipart/form-data">
-            <div class="form-floating mb-3">
-              <input type="file" class="form-control" ref="fileInput" @change="handleFileChange" placeholder="roomImg"/>
-              <label for="floatingroomImg">Room Image</label>
+            <div class="form-floating mb-3" >
+              <input  type="file" class="form-control" ref="fileInput" @change="handleFileChange" placeholder="roomImg" />
+              <label  for="floatingroomImg">Room Image</label>
                 <div v-if="previewUrl">
                   <h4>Preview:</h4>
                   <img :src="previewUrl" alt="File Preview" />
                 </div>
-                 <button @click="uploadFile">Upload</button>
             </div>
             <div class="form-floating mb-3">
               <input type="text" class="form-control" v-model="roomName"  placeholder="RoomName">
@@ -156,7 +155,7 @@
               <label for="floatingroomPrice">Room Price</label>
             </div>
             <div class="d-grid">
-            <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Add Room</button>
+            <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit" @click="uploadFile">Add Room</button>
               <div class="text-center"></div>
             </div>
           
@@ -183,6 +182,7 @@
         </thead>
         <tbody>
           <tr v-for="product in product" :key="product.id">
+            
             <td>{{ product.roomImg }}</td>
             <td>{{ product.roomName }}</td>
             <td>{{ product.roomPrice }}</td>

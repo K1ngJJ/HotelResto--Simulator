@@ -1,0 +1,90 @@
+CRITICAL - 2023-11-21 01:02:36 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:05:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:13:16 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:13:21 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:15:06 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:17:38 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:17:39 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:17:59 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:19:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:22:00 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:23:37 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:23:41 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:24:02 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:32:14 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 01:37:12 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MainController.php on line 108.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->doUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()

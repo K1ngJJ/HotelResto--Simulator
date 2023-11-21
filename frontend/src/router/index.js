@@ -18,13 +18,11 @@ const routes = [
     path: '/Signin',
     name: 'Signin',
     component: SigninView,
-    meta :{requiresAuth: true}
   },
   {
     path: '/Signup',
     name: 'Signup',
     component: SignupView,
-    meta :{requiresAuth: true}
   },
   {
     path: '/Admin',
