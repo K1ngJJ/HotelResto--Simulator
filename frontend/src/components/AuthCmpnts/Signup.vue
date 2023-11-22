@@ -64,7 +64,7 @@
                 </div>-->
 
                 <!-- Sign Up Form -->
-                  <form fast-fail @submit.prevent novalidate="register">
+                  <form fast-fail @submit.prevent ="register">
                    <!-- <div v-if="message === 'error'">Invalid response</div>-->
                   <div class="form-floating mb-3">
                     <input v-model="username" type="text" class="form-control" placeholder="Username" @keyup="validateInput" @blur="validateInput">
@@ -93,7 +93,7 @@
                     <label for="floatingPassword">Password</label>
                   </div>
                   <div class="form-floating mb-3">
-                    <input v-model="confirmPassword" type="password" class="form-control" placeholder="Confirm Password">
+                    <input v-model="confirmPassword" type="password" class="form-control" placeholder="Confirm Password" @keyup="validateInput" @blur="validateInput">
                     <label for="floatingConfirm Password">Confirm Password</label>
                     <div class="ui basic label pointing red text-center" v-if="errors.password">
                      <small class='text-danger'>{{ errors.password }}</small>
@@ -133,7 +133,7 @@ export default {
       usertype: '',
       password: '',
       confirmPassword: '',
-      message: '',
+      Msg: '',
     };
   },
   methods: {
