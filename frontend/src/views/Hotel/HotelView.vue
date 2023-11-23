@@ -1,18 +1,18 @@
 <template>
-  <Hotel />
+  <HotelPage />
 </template>
 
 <script>
 import { defineComponent } from 'vue';
 
 // Components
-import Hotel from '../../components/HotelCmpnts/Hotel.vue';
+import HotelPage from '../../components/HotelCmpnts/HotelPage.vue';
 
 export default defineComponent({
   name: 'HotelView',
 
   components: {
-    Hotel,
+    HotelPage,
   },
 });
 </script>

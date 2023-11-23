@@ -1,18 +1,18 @@
 <template>
-  <GetStarted />
+  <HRSim />
 </template>
 
 <script>
 import { defineComponent } from 'vue';
 
 // Components
-import GetStarted from '../components/GetStarted.vue';
+import HRSim from '../components/HRSim.vue';
 
 export default defineComponent({
-  name: 'GView',
+  name: 'HRSimView',
 
   components: {
-    GetStarted,
+    HRSim,
   },
 });
 </script>

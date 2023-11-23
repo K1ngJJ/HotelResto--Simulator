@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import GView from '../views/GView.vue'
+import HRSimView from '../views/HRSimView.vue'
 import SigninView from '../views/Auth/SigninView.vue'
 import SignupView from '../views/Auth/SignupView.vue'
 import HotelView from '../views/Hotel/HotelView.vue'
@@ -11,8 +11,8 @@ import AdminView from '../views/Admin/AdminView.vue'
 const routes = [
   {
     path: '/',
-    name: 'GetStarted',
-    component: GView,
+    name: 'HRSim',
+    component: HRSimView,
   },
   {
     path: '/Signin',
@@ -34,25 +34,25 @@ const routes = [
     path: '/Room',
     name: 'Room',
     component: RoomView,
-    meta :{requiresAuth: true}
+   
   },
   {
     path: '/Booking',
     name: 'Booking',
     component: BookingView,
-    meta :{requiresAuth: true}
+  
   },
   {
     path: '/AddRoom',
     name: 'AddRoom',
     component: AddRoom,
-    meta :{requiresAuth: true}
+  
   },
   {
     path: '/Hotel',
     name: 'Hotel',
     component: HotelView,
-    meta :{requiresAuth: true}
+  
   }
 ]
 
