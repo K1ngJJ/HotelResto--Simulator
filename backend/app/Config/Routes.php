@@ -20,6 +20,7 @@ $routes->match(['post', 'get'],'/api/register', 'UserController::register');
 $routes->post('upload', 'MainController::doUpload');
 $routes->post('/save', 'MainController::save');
 $routes->post('/del', 'MainController::del');
+$routes->post('/update', 'MainController::update');
 
 $routes->get('/edit/(:any)', 'UserController::edit/$1');
 $routes->get('/getData', 'MainController::getData');

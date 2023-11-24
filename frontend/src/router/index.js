@@ -7,6 +7,7 @@ import RoomView from '../views/Hotel/RoomView.vue'
 import BookingView from '../views/Hotel/BookingView.vue'
 import AddRoom from '../views/Admin/AddRoom.vue'
 import AdminView from '../views/Admin/AdminView.vue'
+import EditView from '../views/Admin/EditView.vue'
 
 const routes = [
   {
@@ -46,6 +47,12 @@ const routes = [
     path: '/AddRoom',
     name: 'AddRoom',
     component: AddRoom,
+  
+  },
+  {
+    path: '/EditRoom',
+    name: 'EditRoom',
+    component: EditView,
   
   },
   {

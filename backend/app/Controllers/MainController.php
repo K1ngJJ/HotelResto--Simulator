@@ -76,20 +76,30 @@ class MainController extends ResourceController
                     return redirect()->to('/adminview');
         }
         
-        public function edit($id  = null)
-        {
-            $product = new ProductModel();
+        public function update($id = null){
+            $model = new ProductModel();
+            $json = $this->request->getJSON();
             $data = [
-                'product' => $product->findAll(),
-                'pro' => $product->where('id', $id)->first(),
+                'roomName' => $json->roomName,
+                'roomPrice' => $json->roomPrice,
+                'roomDescription' => $json->roomDescription,
             ];
-            if(!session()->get('isLoggedIn')){
-                return redirect()->to('/signin');
-            }
-            else{
-                return view('admin', $data);
-            }
+            $model->update($id, $data);
         }
+ //       public function edit($id  = null)
+//        {
+//            $product = new ProductModel();
+//            $data = [
+//                'product' => $product->findAll(),
+//                'pro' => $product->where('id', $id)->first(),
+//            ];
+//            if(!session()->get('isLoggedIn')){
+//                return redirect()->to('/signin');
+//            }
+//            else{
+//                return view('admin', $data);
+//            }
+//        }
 
         public function del()
         {

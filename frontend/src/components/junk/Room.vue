@@ -245,6 +245,7 @@
          <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
         </div>
       </div>
+      
      <!-- Products Start -->
     <div id="shop" class="container-fluid py-2">
       <div class="container">

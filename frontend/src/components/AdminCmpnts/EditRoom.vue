@@ -276,7 +276,7 @@
           <ol class="breadcrumb mb-4">
             <li class="breadcrumb-item active">Dashboard</li>
           </ol>
-           <form @submit.prevent="save" enctype="multipart/form-data">
+           <form @submit.prevent="update" enctype="multipart/form-data">
             <div class="form-floating mb-3" >
               <input  type="file" class="form-control" ref="fileInput" @change="handleFileChange" placeholder="roomImg" />
               <label  for="floatingroomImg">Room Image</label>
@@ -344,7 +344,7 @@
       </table>
     </div>
 -->                    
-                  <div class="row">
+<div class="row">
                       <div class="col-md-12 d-flex">
                           <div class="card card-table flex-fill">
                               <div class="card-header">
@@ -377,7 +377,8 @@
                                                     <td>
                                                     <button @click="deleteRoom(product.id)"><i class="fas fa-trash" style="font-size:20px"></i></button>
                                                     |
-                                                    <router-link :to="'/edit/' + product.id"><i class="fas fa-pen" style="font-size:20px"></i></router-link>
+                                                    <button @click="update(product.id)"><i class="fas fa-pen" style="font-size:20px"></i></button>
+        
                                                     </td>
                                                 </tr>
                                                 </tbody>
@@ -394,6 +395,7 @@
 </div>
 </div>  
 </div>
+
   <!--	<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
       <script src="admin_assets/assets/js/jquery-3.5.1.min.js"></script>
       <script src="admin_assets/assets/js/popper.min.js"></script>
@@ -425,6 +427,18 @@ export default {
     this.getInfo();
   },
   methods: {
+    async update() {
+      try {
+       const up = await axios.post("update", {
+              roomName: this.roomName,
+              roomPrice: this.roomPrice,
+              roomDescription: this.roomDescription,
+        });
+        (this.roomName = ""), (this.roomPrice = ""), (this.roomDescription = ""), this.$router.push("/");
+      } catch (error) {
+        console.log(error);
+      }
+    },
     async getInfo() {
       try {
         const inf = await axios.get("getData");

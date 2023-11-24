@@ -95,8 +95,9 @@
                 <a href="/Signin" class="btn btn-primary rounded-pill py-2 px-4">Logout</a>
             </div>
         </nav>
-
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+       
+        <section class="site-hero overlay" style="background-image: url(admin_assets/assets/img/product/product-01.jpg)" data-stellar-background-ratio="0.5">
+        <div class="container-fluid">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -110,6 +111,7 @@
                 </div>
             </div>
         </div>
+    </section>
     </div>
     <!-- Navbar & Hero End -->
 
