@@ -22,7 +22,7 @@
           <div class="header">
               <div class="header-left">
                   <a href="index.html" class="logo"> <img src="img\icons\android-chrome-maskable-512x512.png" width="50" height="70" alt="logo"> <span class="logoclass">ADMIN</span> </a>
-                  <a href="index.html" class="logo logo-small"> <img src="admin_assets/assets/img/hotel_logo.png" alt="Logo" width="30" height="30"> </a>
+                  <a href="index.html" class="logo logo-small"> <img src="img\icons\android-chrome-maskable-512x512.png" alt="Logo" width="30" height="30"> </a>
               </div>
               <a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
               <a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
@@ -132,8 +132,8 @@
                           <li class="submenu"> <a href="#"><i class="fas fa-key"></i> <span> Rooms </span> <span class="menu-arrow"></span></a>
                               <ul class="submenu_class" style="display: none;">
                                   <li><a href="all-rooms.html">All Rooms </a></li>
-                                  <li><a href="edit-room.html"> Edit Rooms </a></li>
-                                  <li><a href="add-room.html"> Add Rooms </a></li>
+                                  <li><a href="/EditRoom"> Edit Rooms </a></li>
+                                  <li><a href="/AddRoom"> Add Rooms </a></li>
                               </ul>
                           </li>
                           <!--
@@ -522,7 +522,6 @@ export default {
     },
   
      mounted() {
-      var mA;
       // Add your script code here
       const script = document.createElement('script');
       script.src = '../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js';
@@ -539,7 +538,8 @@ export default {
   
       const customScript4 = document.createElement('script');
       customScript4.src = 'admin_assets/assets/plugins/slimscroll/jquery.slimscroll.min.js';
-   
+
+      var mA;
       const customScript8 = document.createElement('script');
       customScript8.src = 'admin_assets/assets/js/script.js';
     

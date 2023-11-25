@@ -5,7 +5,7 @@ import SignupView from '../views/Auth/SignupView.vue'
 import HotelView from '../views/Hotel/HotelView.vue'
 import RoomView from '../views/Hotel/RoomView.vue'
 import BookingView from '../views/Hotel/BookingView.vue'
-import AddRoom from '../views/Admin/AddRoom.vue'
+import AddView from '../views/Admin/AddView.vue'
 import AdminView from '../views/Admin/AdminView.vue'
 import EditView from '../views/Admin/EditView.vue'
 
@@ -46,7 +46,7 @@ const routes = [
   {
     path: '/AddRoom',
     name: 'AddRoom',
-    component: AddRoom,
+    component: AddView,
   
   },
   {
